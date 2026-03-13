@@ -1,0 +1,3075 @@
+<!DOCTYPE html>
+<html lang="mk-MK">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="images/header.png" />
+    <meta property="og:url" content="https://creativehub.mk/front-end" />
+    <link rel="canonical" href="https://creativehub.mk/front-end/" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-mobile.css" />
+    <link rel="stylesheet" href="aos.css" />
+    <title>Академија за Front-End програмирање | Creative Hub</title>
+    <meta name="description" content="Започни со програмирање на вебстрани и веб-апликации за само 8 месеци! Научи HTML, CSS и JavaScript на Академија за Front-End">
+    <link rel="shortcut icon" href="images/favicon.png.webp" type="images/x-icon" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="@glidejs/glide/dist/css/glide.core.min.css" />
+
+    <link rel="alternate" hreflang="mk-MK" href="https://creativehub.mk/front-end/">
+    <link rel="alternate" hreflang="en-MK" href="https://creativehub.mk/en/front-end/">
+    <link rel="alternate" hreflang="en-XK" href="https://creativehubkos.com/front-end/">
+    <link rel="alternate" hreflang="x-default" href="https://creativehub.mk/en/front-end/">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '189500257585654');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=189500257585654&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NB5S9TR");
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NB5S9TR" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+     <!-- Go to top button -->
+     <a href="#">
+        <img src="images/arrow-up.svg" alt="arrow-up" class="to-the-top-button">
+    </a>
+
+    <!-- Spots form modal -->
+    <div id="spotsFormContainer"></div>
+
+    <div class="navbar-wrapper">
+        <!-- BANNER -->
+        <div class="spots" onclick="scrollInto('registerForm')">
+            <!-- <p>Аплицирај со €800 попуст</p> -->
+            
+            <!-- <div id="countdown"></div> -->
+
+            <!-- <p class="text-danger fw-bold">Можност за целосна стипендија со Американска диплома</p> -->
+            
+        </div>
+        <div class="navbar-grey py-2">
+            <div class="d-flex align-items-center justify-content-between container-section">
+                <p class="m-0">
+                    Successful careers <span class="fw-bold">made possible.</span>
+                </p>
+                <div class="d-flex align-items-center">
+                    <img src="images/phone.svg" class="me-2" alt="Phone" />
+                    <a class="phone" href="tel: 38971214849">+ 389 71 214 849</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-section">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="https://creativehub.mk/"><img src="images/logo.svg"
+                        alt="Creative Hub" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle
+                    navigation">
+                    <span class="navbar-toggler-icon"><img src="images/hamburger.svg" alt="Hamburger" /></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Академии
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/graphic-design/">Графички
+                                        дизајн</a>
+                                </li>
+                                <li>
+                                    <a href="https://creativehub.mk/digital-marketing/" class="dropdown-item">Дигитален
+                                        маркетинг</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/hr/">Човечки ресурси</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/ux-ui/">UX/UI дизајн</a>
+                                </li>
+                                <li>
+                                    <a class="active-academy dropdown-item"
+                                        href="https://creativehub.mk/front-end/">Front-End</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/software-testing/">Software
+                                        Testing</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Кариера
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/blog/">Блог</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/HiringPlatform/">Платформа за
+                                        вработување</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Јазик
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/front-end">
+                                        <img src="images/mk-flag.png" alt="mk-flag" loading="lazy">
+                                        Македонски
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/en/front-end">
+                                        <img src="images/en-flag.svg" alt="en-flag" loading="lazy">
+                                        Англиски
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://creativehub.mk/ai-conference/" class="nav-link">AI Конференција</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- HERO -->
+
+    <div class="hero container-section">
+        <div class="hero-wrapper">
+            <div class="header-left">
+                <h1>
+                    US Акредитирана<br />
+                    <span>Академија за фронтенд <br />
+                        девелопмент </span>
+                </h1>
+
+                <h2>За луѓе што сакаат да работат како <br />
+                    <span class="blue"> фронтенд девелопери</span>
+                </h2>
+
+                <p class="hero-success">
+                    Знаење <span>+ </span> Флексибилна Пракса <span>+ </span> ЕУ и Американска диплома <span>+
+                    </span> Натпревари за вработување <span>= </span> <span class="underline">Гарантиран
+                        успех</span>
+                </p>
+
+                <p>Учествувај во Натпревари за вработување додека не се вработиш ❤️</p>
+
+
+                <a target="_blank"
+                    href="https://www.google.com/search?q=creative+hub&sca_esv=d1dc203dc5631f05&sxsrf=ACQVn0_Gw7XFO4VcKgFpuzjd3SBkLn0bGg%3A1711804054084&ei=lg4IZqjeBICI7NYPqeG-6Aw&udm=&ved=0ahUKEwiogcaEh5yFAxUABNsEHamwD80Q4dUDCA8&uact=5&oq=creative+hub&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGNyZWF0aXZlIGh1YjIKECMYgAQYigUYJzIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLAUjEBlDTBFjTBHABeAGQAQCYAawBoAGsAaoBAzAuMbgBA8gBAPgBAZgCAqACywHCAgoQABhHGNYEGLADmAMA4gMFEgExIECIBgGQBgiSBwMxLjGgB8gG&sclient=gws-wiz-serp#lrd=0x13541537e14efaff:0xbb5ff2b26fa25c02,1,,,,">
+                    <img src="images/google-rating.webp" alt="Google Rating" />
+                </a>
+
+            </div>
+            <div class="header-right">
+                <div class="form-wrapper">
+                    <form method="POST" action="https://akoskarova.activehosted.com/proc.php" id="_form_918_" class="_form _form_918 _inline-form  _dark" novalidate data-styles-version="5">
+                        <input type="hidden" name="u" value="918" />
+                        <input type="hidden" name="f" value="918" />
+                        <input type="hidden" name="s" />
+                        <input type="hidden" name="c" value="0" />
+                        <input type="hidden" name="m" value="0" />
+                        <input type="hidden" name="act" value="sub" />
+                        <input type="hidden" name="v" value="2" />
+                        <input type="hidden" name="or" value="bab08b21f09568dffd28c3a5b5a232bc" />
+                        <div class="_form-content">
+                            <div class="_form_element _x21909336 _full_width _clear" >
+                            <title class="_form-title">
+                                SOLD OUT → Влези на листа за чекање
+                            </title>
+                            </div>
+                            <div class="_form_element _x74119868 _full_width _clear" >
+                            <div class="_html-code">
+                                Групата започнува на 21ви октомври. Оставете инфо за да ве исконтактираме ако се ослободи место:
+                            </div>
+                            </div>
+                            <div class="_form_element _x67826582 _full_width " >
+                            <label for="fullname" class="_form-label">
+                                Име и презиме<span class="field-required">
+                                *
+                            </span>
+                            </label>
+                            <div class="_field-wrapper">
+                            <input type="text" id="fullname" name="fullname" placeholder="пр. Иван Ивановски" required/>
+                            </div>
+                        </div>
+                        <div class="_form_element _x03905226 _full_width " >
+                            <label for="email" class="_form-label">
+                            Email<span class="field-required">
+                            *
+                            </span>
+                        </label>
+                        <div class="_field-wrapper">
+                            <input type="text" id="email" name="email" placeholder="пр. ivan@gmail.com" required/>
+                        </div>
+                        </div>
+                        <div class="_form_element _x53897049 _full_width " >
+                        <label for="phone" class="_form-label">
+                            Телефонски број<span class="field-required">
+                            *
+                        </span>
+                        </label>
+                        <div class="_field-wrapper">
+                        <input type="text" id="phone" name="phone" placeholder="Type your phone number" required/>
+                        </div>
+                        </div>
+                        <div class="_form_element _x94593036 _full_width " >
+                        <label for="ls" class="_form-label">
+                        Please verify your request.<span class="field-required">
+                        *
+                        </span>
+                        </label>
+                        <div class="g-recaptcha" data-sitekey="6LcwIw8TAAAAACP1ysM08EhCgzd6q5JAOUR1a0Go">
+                        </div>
+                        </div>
+                        <!-- <div class="_form_element _x18299879 _full_width _clear" >
+                        <div class="_html-code">
+                        *Може да се аплицира само за една целосна стипендија на една Aкадемија
+                        </div>
+                        </div> -->
+                        <div class="_button-wrapper _full_width">
+                        <button id="_form_918_submit" class="_submit" type="submit">
+                        Влези на листа за чекање
+                        </button>
+                        </div>
+                        <div class="_clear-element">
+                        </div>
+                        </div>
+                        <div class="_form-thank-you" style="display:none;">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div class="about container-section overflow">
+
+        <h2>Учи од светски-наградувана Академија</h2>
+        <p>Македонски, а светски бренд</p>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/news-01.webp" class="card-img-top" alt="Creative Hub News">
+                    <div class="card-body">
+                        <h5 class="card-title">Creative Hub се најде на листата на Форбес под 30
+                            (2019)</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/news-02.webp" class="card-img-top" alt="Creative Hub News">
+                    <div class="card-body">
+                        <h5 class="card-title">Creative Hub доби награда за време на Светскиот Економски Форум во Давос
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/news-03.webp" class="card-img-top" alt="Creative Hub News">
+                    <div class="card-body">
+                        <h5 class="card-title">Creative Hub Academy стана лиценцирана Американска Академија во Септември
+                            2023</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- OFFERS -->
+
+    <div class="offers container-section overflow" id="offers">
+
+        <h2>Избери го патот до успехот</h2>
+        <div class="row gy-5">
+
+            <div class="col-md-4">
+
+                <div class="price-card">
+                    <div class="price-header">
+                        <img src="images/lightning-icon.svg" alt="Lighting Bolt">
+                        <h4>Само Академија</h4>
+                        <div>
+                            <div>
+                                <p><span class="crossed-out">€ 2,500</span></p>
+                                <p>€700 попуст!</p>
+                            </div>
+
+                            <div>
+                                <p><span>€ 1800</span></p>
+                                <p>*цена со попуст</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price-body">
+
+                        <div>
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Сите модули од основна програма</p>
+                            </div>
+
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Онлајн предавања</p>
+                            </div>
+
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Работилници и вежби во живо/онлајн</p>
+                            </div>
+
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Mакедонска диплома</p>
+                            </div>
+
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Натпревари за вработување</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <p><span>€90 месечно </span>/20 месеци</p>
+
+                    </div>
+
+                    <div class="price-footer">
+                        <span>Само уште една група до крајот на годината. <br />
+
+                            Аплицирај сега и гарантирај го твоето место!  </span>
+                            <a href="https://calendly.com/stojanco_ch/30min?month=2024-03" target="_blank">
+                                <button>Закажи состанок со координатор!</button>
+                            </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="price-card most-popular">
+                    <span class="step">Најпопуларна</span>
+                    <div class="price-header">
+                        <img src="images/star-icon.svg" alt="Star">
+                        <h4>ЕУ Сертифицирана</h4>
+                        <div>
+                            <div>
+                                <p><span class="crossed-out">€2800</span></p>
+                                <p>€700 попуст!</p>
+                            </div>
+
+                            <div>
+                                <p><span>€ 2100</span></p>
+                                <p>*цена со попуст</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price-body">
+
+                        <div>
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>Се од Само Академија </p>
+                            </div>
+
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>45 дена вклучена пракса во програмата </p>
+                            </div>
+
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>Курс за фриленс работа</p>
+                            </div>
+
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>Мега Курсеви</p>
+                            </div>
+
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>ЕУ Диплома со ЕКТС кредити</p>
+                            </div>
+                        </div>
+
+
+
+
+                        <p><span>€105 месечно </span>/20 месеци</p>
+
+                    </div>
+
+                    <div class="price-footer">
+                        <span>Само уште една група до крајот на годината. <br />
+
+                            За уплати во готово следи 5% попуст </span>
+                            <a href="https://calendly.com/stojanco_ch/30min?month=2024-03" target="_blank">
+                                <button>Закажи состанок со координатор!</button>
+                            </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="price-card american">
+                    <div class="price-header">
+                        <img src="images/heart-icon.svg" alt="Heart">
+                        <h4>Американска Диплома</h4>
+                        <div>
+                            <div>
+                                <p><span class="crossed-out">€3900</span></p>
+                                <p>€700 попуст!</p>
+                            </div>
+
+                            <div>
+                                <p><span>€ 3200</span></p>
+                                <p>*цена со попуст</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price-body">
+
+                        <div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>Се од ЕУ Сертифицирана</p>
+                            </div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>Програмата е на македонски јазик</p>
+                            </div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>Официјална Американска диплома</p>
+                            </div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>Македонска + ЕУ Диплома</p>
+                            </div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>Натпревари за вработување во Американски компании</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <p class="price"><span>€160 месечно</span> /20 месеци</p>
+
+                    </div>
+
+                    <div class="price-footer">
+                        <span>Само уште една група до крајот на годината. <br />
+
+                            За уплати во готово следи 5% попуст </span>
+                            <a href="https://calendly.com/stojanco_ch/30min?month=2024-03" target="_blank">
+                                <button>Закажи состанок со координатор!</button>
+                            </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- TABLE -->
+
+    <div class="table-section container-section overflow">
+        <h2>Програмски приказ </h2>
+        <p class="start-career">Започни на структурирана професионална надградба со Creative Hub.</p>
+        <div class="indicators d-flex justify-content-center">
+            <button>
+                <img src="images/grey-circle.svg" class="mx-2" alt="green"> <br class="d-md-none" /> Само Академија
+            </button>
+            <button>
+                <img src="images/dblue-circle.svg" class="mx-2" alt="green"><br class="d-md-none" /> ЕУ Сертифицирана
+            </button>
+            <button>
+                <img src="images/lblue-circle.svg" class="mx-2" alt="green"><br class="d-md-none" /> Американска Диплома
+            </button>
+        </div>
+        <div class="lg-table">
+
+            <div data-glide-el="track" class="glide__track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="table-wrapper mt-5 green">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Месец 1</th>
+                                        <th>Месец 2</th>
+                                        <th>Месец 3</th>
+                                        <th>Месец 4</th>
+                                        <th>Месец 5</th>
+                                        <th>Месец 6</th>
+                                        <th>Месец 7</th>
+                                        <th>Месец 8</th>
+                                        <th>Месец 9</th>
+                                        <th>Месец 10</th>
+                                        <th>Месец 11</th>
+                                        <th>Месец 12</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="grey-row row-margin">
+                                        <td colspan="8" class="grey-row"> <img src="images/table-hat.svg"
+                                                alt="Graduation Icon">2
+                                            пати
+                                            неделно по 2 часа</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="3" class="grey-row">Натпревари за
+                                            вработување</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="table-wrapper mt-5 red">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Месец 1</th>
+                                        <th>Месец 2</th>
+                                        <th>Месец 3</th>
+                                        <th>Месец 4</th>
+                                        <th>Месец 5</th>
+                                        <th>Месец 6</th>
+                                        <th>Месец 7</th>
+                                        <th>Месец 8</th>
+                                        <th>Месец 9</th>
+                                        <th>Месец 10</th>
+                                        <th>Месец 11</th>
+                                        <th>Месец 12</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="grey-row row-margin">
+                                        <td colspan="8" class="dark-blue-row"> <img src="images/table-hat.svg"
+                                                alt="Graduation Icon">2
+                                            пати
+                                            неделно по 2 часа</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="3" class="dark-blue-row"><img src="images/table-ev.svg"
+                                                alt="Graduation Icon">Натпревари за
+                                            вработување</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="6"></td>
+                                        <td colspan="2" class="dark-blue-row">45 дена Флексибилна
+                                            пракса</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="7"></td>
+                                        <td colspan="1" class="dark-blue-row">Курс за фриленс</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="2" class="dark-blue-row">Мега Курсеви</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="table-wrapper yellow mt-5">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Месец 1</th>
+                                        <th>Месец 2</th>
+                                        <th>Месец 3</th>
+                                        <th>Месец 4</th>
+                                        <th>Месец 5</th>
+                                        <th>Месец 6</th>
+                                        <th>Месец 7</th>
+                                        <th>Месец 8</th>
+                                        <th>Месец 9</th>
+                                        <th>Месец 10</th>
+                                        <th>Месец 11</th>
+                                        <th>Месец 12</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="light-blue-row row-margin">
+                                        <td colspan="8" class="light-blue-row"> <img src="images/table-hat.svg"
+                                                alt="Graduation Icon"> Модули - Основна програма + менторски сесии 3
+                                            пати неделно по
+                                            2 часа </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="3" class="light-blue-row"><img src="images/table-ev.svg"
+                                                alt="Graduation Icon">Натпревари за
+                                            вработување</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="6"></td>
+                                        <td colspan="2" class="light-blue-row">45 дена Флексибилна
+                                            пракса</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="7"></td>
+                                        <td colspan="1" class="light-blue-row">Курс за фриленс</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="2" class="light-blue-row">Мега Курсеви</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glide__arrows text-center" data-glide-el="controls">
+                <button class="glide_arrow glide_arrow--left" data-glide-dir="<">
+                    <img src="images/table-arrow-left.svg" alt="Left arrow">
+                </button>
+                <button class="glide_arrow glide_arrow--right" data-glide-dir=">">
+                    <img src="images/table-arrow-right.svg" alt="Right arrow">
+                </button>
+            </div>
+
+        </div>
+
+
+
+        <div class="sm-table">
+
+            <div data-glide-el="track" class="glide__track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="table-wrapper green mt-5">
+                            <table>
+                                <tr>
+                                    <th>
+                                        Месец 1
+                                    </th>
+                                    <td rowspan="8" class="grey-row">
+
+                                        <div>
+                                            2 пати
+                                            неделно по 2 часа
+                                            <img src="images/table-hat.svg" alt="Graduation Icon">
+
+                                        </div>
+
+
+                                    </td>
+
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Месец 2
+                                    </th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 3
+                                    </th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 4
+                                    </th>
+                                    <td rowspan="3">
+                                    </td>
+
+                                    <td></td>
+
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 5
+                                    </th>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 6
+                                    </th>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 7
+                                    </th>
+                                    <td></td>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 8
+                                    </th>
+                                    <td></td>
+                                    <td rowspan="5" class="grey-row">
+                                        <div>
+                                            Натпревари за
+                                            вработување
+                                        </div>
+
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 9
+                                    </th>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 10
+                                    </th>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 11
+                                    </th>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 12
+                                    </th>
+
+                                </tr>
+
+                            </table>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="table-wrapper red mt-5">
+                            <table>
+                                <tr>
+                                    <th>
+                                        Месец 1
+                                    </th>
+                                    <td rowspan="8" class="dark-blue-row">
+
+                                        <div>
+                                            2 пати
+                                            неделно по 2 часа
+                                            <img src="images/table-hat.svg" alt="Graduation Icon">
+
+                                        </div>
+
+
+                                    </td>
+
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Месец 2
+                                    </th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 3
+                                    </th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 4
+                                    </th>
+                                    <td rowspan="3" class="dark-blue-row">
+                                        <div>
+                                            45 дена пракса
+
+                                        </div>
+
+                                    </td>
+
+                                    <td></td>
+
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 5
+                                    </th>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 6
+                                    </th>
+
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 7
+                                    </th>
+                                    <td rowspan="2" class="dark-blue-row">
+                                        <div>
+                                            Курс за фриленс
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 8
+                                    </th>
+                                    <td rowspan="5" class="dark-blue-row">
+                                        <div>
+                                            Натпревари за
+                                            вработување
+                                        </div>
+                                    <td></td>
+
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 9
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 10
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 11
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 12
+                                    </th>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="table-wrapper yellow red mt-5">
+                            <table>
+                                <tr>
+                                    <th>
+                                        Месец 1
+                                    </th>
+                                    <td rowspan="8" class="light-blue-row">
+
+                                        <div>
+                                            Модули - Основна програма + менторски сесии 3 пати неделно по 2 часа
+                                            <img src="images/table-hat.svg" alt="Graduation Icon">
+
+                                        </div>
+
+
+                                    </td>
+
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Месец 2
+                                    </th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 3
+                                    </th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 4
+                                    </th>
+
+
+                                    <td></td>
+
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 5
+                                    </th>
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 6
+                                    </th>
+
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 7
+                                    </th>
+                                    <td rowspan="3" class="light-blue-row">
+                                        <div>
+                                            45 дена пракса
+
+                                        </div>
+
+                                    </td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 8
+                                    </th>
+                                    <td rowspan="5" class="light-blue-row">
+                                        <div>
+                                            Натпревари за
+                                            вработување
+                                        </div>
+
+
+                                    </td>
+                                    <td rowspan="2" class="light-blue-row">
+                                        <div>
+                                            Курс
+                                            за
+                                            Фриленс
+
+                                        </div>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 9
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 10
+                                    </th>
+                                    <td></td>
+                                    <td></td>
+                                    <td rowspan="5" class="light-blue-row">
+                                        <div>
+                                            Мега Курсеви
+                                        </div>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 11
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        Месец 12
+                                    </th>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glide__arrows text-center" data-glide-el="controls">
+                <button class="glide_arrow glide_arrow--left" data-glide-dir="<">
+                    <img src="images/table-arrow-left.svg" alt="Left arrow">
+                </button>
+                <button class="glide_arrow glide_arrow--right" data-glide-dir=">">
+                    <img src="images/table-arrow-right.svg" alt="Right arrow">
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PROGRAM -->
+    <div class="program-section container-section">
+        <span class="step">МЕСЕЦ 1-12</span>
+        <h2>Модули</h2>
+
+
+        <div class="program">
+
+            <div class="program-wrapper d-flex">
+                <div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program01">+</button>
+                        <p>HTML</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program02">+</button>
+                        <p>CSS</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program03">+</button>
+                        <p>Bootstrap</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program04">+</button>
+                        <p>Git</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program05">+</button>
+                        <p>JavaScript</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program06">+</button>
+                        <p>TypeScript</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program07">+</button>
+                        <p>jQuery</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program08">+</button>
+                        <p>React js </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <img src="images/program-photo.webp" alt="Students at Creative Hub" />
+            </div>
+
+
+
+        </div>
+
+        <!-- PROGRAM MODALS -->
+
+        <div class="modal fade" id="program01" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">HTML</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Студентите ќе научат:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Како работи интернетот (комуникација помеѓу веб страните и серверите)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Запознавање со код едитор</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Структура на HTML елементи</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Објаснување на атрибути и тагови и нивна правилна употреба</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Мини веб страна само со HTML</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program02" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">CSS</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Студентите ќе научат:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Основи на синтакса</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>CSS селектори</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>CSS бои, позадински бои, фонтови, слики</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Позиционирање на елементи</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Pseudo класи и pseudo елементи</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Flexbox</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Трансформации и анимации</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Респонзивен дизајн - media queries</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Користење на надворешни библиотеки и фонтови (CDN)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Примери од пракса</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Респонзивни веб страни со HTML & CSS</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program03" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">Bootstrap</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Студентите ќе научат:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Основи на синтакса</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Grid системи и grid класи</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Типографија, слики, бои и позадински бои</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Класи на елементи и компоненти</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Компоненти и нивна модификација</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Комплетни респонзивни веб страни со Bootstrap 4</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program04" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">Git
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>По завршување на модулот:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Научи како да го поставиш твоето портфолио на Git</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program05" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">JavaScript
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Студентите ќе научат:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>JavaScript основи (историја, конзола, comments, linking files defer vs. async)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Data Types (основни data types, constants, arithmetic operators)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Objects и arrays</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Properties, methods</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Loops</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Functions (scope, arrow functions)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>DOM</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Events & Async/Await</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>AJAX</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Classes and object-oriented programming</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Modern JavaScript</p>
+                        </div>
+
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Functions (scope, arrow functions)</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program06" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">TypeScript
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Студентите ќе научат: </span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Вовед во дополнителната синтакса која се заснова на JavaScript се со цел да се олесни
+                                интеграцијата со едиторите што ќе ни помогне за рано детектирање на грешките
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program07" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">jQuery
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Студентите ќе научат:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Отварање на модал
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Извршување на клик</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Креирање на функција</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Употреба на филтрирање</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Други фукции поврзани со side-bar</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Креирање на други акции</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program08" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">React js
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Студентите ќе научат:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction to React and Custom Components
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>JSX</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Handling events and working with state and use state hook
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction to forms in React
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Styling React Components
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Component children, Conditional rendering and Debugging
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>useEffect and useReducer hooks
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction and working with Material UI
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Styling Material UI components
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Working with React Context and the useContext hook
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Optimisation of React Applications
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Client - Server communication and working with APIs
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Creating Custom Hooks in React
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction and building multi-page applications with React Router
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Testing React Applications
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="program weekend">
+
+            <div class="lg-image">
+                <img src="images/program-weekend.webp" alt="Students at Creative Hub" loading="lazy" />
+            </div>
+
+            <div>
+                <h2>
+                    Секоја сабота вежби
+                </h2>
+
+                <p>
+                    Да менуваш професија во ИТ е комплесно, но не е невозможно.
+                </p>
+
+                <p>
+                    Секој сабота ќе работиш на вежби 1 на 1 или во група со еден од нашите предавачи на Академијата.
+                </p>
+            </div>
+
+            <div class="sm-image">
+                <img src="images/program-weekend.png" alt="Students at Creative Hub" />
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MEGA COURSES -->
+
+    <div class="mega-courses container-section">
+        <h2>Добиј + Мега Курсеви</h2>
+
+        <div class="courses-wrapper">
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>АКАУНТ МЕНАЏМЕНТ МЕГА КУРС</h3>
+                    <p>Стекни вештини за успешно менаџирање со проекти.</p>
+                </div>
+
+                <div class="course-body">
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p> Како успешно да ги реализираме проектите
+                            со намалени можности за ризик</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Позиционирање на вистинското место</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Планирање</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Комуникација со клиент</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Справување со непредвидени проблеми</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Успешно комплетирање</p>
+                    </div>
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Градење на кариера како freelancer и
+                            градење на себе си како девелопер/инжењер</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>КОМУНИКАЦИСКИ ВЕШТИНИ ВО ИТ</h3>
+                    <p>Гради успешни релации во ИТ индустријата.</p>
+                </div>
+
+                <div class="course-body">
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Како да најдеме соодветни проекти</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Барање на вистинските проекти и клиенти</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Како да аплицираме и да иницираме повратна комуникација од клиентот</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Како да преговараме за цена</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Какви клиенти да избегнуваме</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Како да го почнеме проектот</p>
+                    </div>
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Градење на рапорт со клиент </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="internship container-section">
+
+        <div>
+            <span class="step">Месец 12</span>
+            <h2>Флексибилна Пракса <br />
+                ( вклучена во програмата ) </h2>
+
+            <p>Искористи ја праксата за да стекнеш вистинско искуство што значи да работиш самостојно. </p>
+
+            <p>Праксата е флексибилна за да ти даде можност да бидеш дел од неа дури и ако си во работен однос.</p>
+        </div>
+
+        <div>
+            <img src="images/internship-photo.png" alt="Intern" loading="lazy">
+        </div>
+    </div>
+
+
+    <!-- CONTESTS -->
+
+    <div class="internship  contest container-section">
+
+        <div>
+            <img class="lg-image" src="images/contest-photo.webp" alt="Intern">
+        </div>
+
+        <div>
+            <span class="step">Месец 12</span>
+            <h2>Секоја недела Натпревари за Вработување</h2>
+
+            <p>Со ИТ компаниите развивме систем на вработување преку учество на Натпревари.</p>
+
+            <p>Најдобрите студенти започнуваат со пракса, или продолжуваат во следното ниво во фазата на селекција.</p>
+
+            <p>Секој месец учествуваш во барем 1 натпревар за вработување.</p>
+        </div>
+
+        <img class="sm-image" src="images/contest-photo.png" alt="Intern">
+    </div>
+
+    <div class="contests container-section overflow">
+
+        <div class="row mt-5">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div>
+                        <img src="images/vitalia.png" class="card-img-top" alt="Vitalia">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Организиран на 4.6.2024</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div>
+                        <img src="images/salesmake.png" class="card-img-top" alt="Sales Make">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Организиран на 7.6.2024
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div>
+                        <img src="images/secondbrain.png" class="card-img-top" alt="Fledgeworks">
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Организиран на 10.6.2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+
+                    <div>
+                        <img src="images/officepeople.png" class="card-img-top" alt="Office People">
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Организиран на 11.6.2024</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/maksystem.webp" class="card-img-top" alt="Mak-System">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Организиран на 4.3.2024</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/mccann.png" class="card-img-top" alt="McCann">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Организиран на 27.4.2024
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/fledgeworks.png" class="card-img-top" alt="Fledgeworks">
+
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Организиран на 1.4.2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+
+                <div>
+                    <img src="images/zito.webp" class="card-img-top" alt="Zito">
+
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Организиран на 8.4.2024</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/bransys.png" class="card-img-top" alt="bransys">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Организиран на 11.4.2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/flexcredit.png" class="card-img-top" alt="Flexcredit">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Организиран на 16.4.2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/company07.png" class="card-img-top" alt="company logo">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Организиран на 16.4.2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/sunnyhill.png" class="card-img-top" alt="SunnyHill">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Организиран на 17.4.2024</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- FREELANCE -->
+
+    <div class="freelance container-section">
+        <h2 class="my-5">Почни да заработуваш онлајн и почни <br /> да аплицираш за работа</h2>
+
+        <div>
+            <div class="freelance-left">
+                <span class="step">Meсец 12</span>
+                <h3>Стекни вештини за фриленс работа и работа во компанија</h3>
+
+                <div>
+                    <img src="images/internship-check.png" alt="Check">
+                    <p>Бонус Курс: Курс за фриленс работа</p>
+                </div>
+
+                <div>
+                    <img src="images/internship-check.png" alt="Check">
+                    <p>Бонус Курс: Поставување на твојот Линкедин профил за успех</p>
+                </div>
+
+                <div>
+                    <img src="images/internship-check.png" alt="Check">
+                    <p>Бонус Курс: Спремање на CV + Портфолио</p>
+                </div>
+
+                <div>
+                    <img src="images/internship-check.png" alt="Check">
+                    <p>Бонус Курс: Како да одговориш успешно на прашања за интервју?</p>
+                </div>
+            </div>
+
+            <div>
+                <img class="freelance-img" src="images/freelance-photo.webp" alt="Students working freelance">
+            </div>
+        </div>
+    </div>
+
+    <!-- EU DIPLOMA -->
+
+    <div class="diploma container-section overflow">
+
+        <h2>Стекни се со валидирана и признаена диплома</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="diploma-card">
+
+                    <img src="images/ch-circle.svg" alt="Creative Hub Diploma">
+
+                    <h3>Македонска диплома</h3>
+
+                    <p>Верификувана македонска диплома.</p>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="diploma-card">
+
+                    <img src="images/eu-diploma.svg" alt="EU Certified Diploma">
+
+                    <h3>ЕУ диплома со ЕКТС кредити</h3>
+
+                    <p>*Идеална за студенти кои сакаат да работат и живеат во Европа.</p>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="diploma-card dark">
+
+                    <img src="images/usa-diploma.svg" alt="USA Certified Diploma">
+
+                    <h3>Американска диплома</h3>
+
+                    <p>Академијата Creative Hub е прва и единствена македонска институција лиценцирана од Американското
+                        министерство за образование ( United States Department of Education ) која издава американски
+                        дипломи.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SKILLS -->
+
+    <div class="skills container-section">
+        <h2>+ Пост Академски Мега Курсеви </h2>
+        <p>Вештини за следното ниво во твојата кариера</p>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="skill-card">
+
+                    <img src="images/leadership-icon.svg" alt="Leadership icon">
+
+                    <h3>Лидерство</h3>
+
+                    <ul>
+                        <li>
+                            Емоционална интелигенција
+                        </li>
+
+                        <li>
+                            Лидерство vs. Менаџмент
+                        </li>
+
+                        <li>
+                            Разлика помеѓу менаџер и лидер
+                        </li>
+
+                        <li>
+                            Менаџирање со промени
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+
+                    <img src="images/lightbulb-icon.svg" alt="Entrepreneurship icon">
+
+                    <h3>Претприемништво</h3>
+
+                    <ul>
+                        <li>
+                            Како да започнеш сопствен бизнис
+                        </li>
+
+                        <li>
+                            Креирање на елементите на бизнис стратегија
+                        </li>
+
+                        <li>
+                            Избирање на вистинскиот бизнис модел
+                        </li>
+
+                        <li>
+                            Вработување на вистинските луѓе
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+
+                    <img src="images/check-icon.svg" alt="Success">
+
+                    <h3>Успех во Кариера</h3>
+
+                    <ul>
+                        <li>
+                            Поставување на KPI’s
+                        </li>
+
+                        <li>
+                            Поврзување на твоите цели со твојот кариерен пат
+                        </li>
+
+                        <li>
+                            Развивање на дисциплина 
+                        </li>
+
+                        <li>
+                            Бизнис комуникација
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MENTORS -->
+
+    <div class="mentors container-section overflow">
+
+        <h2>Нашите Професионални Предавачи</h2>
+
+        <div class="row gx-5">
+            <div class="col-sm-12 col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor01.webp" alt="Arijana Koskarova" class="lg-image">
+                    </div>
+
+                    <div class="d-flex mentor-body">
+
+                        <div>
+                            <img src="images/mentor01.webp" alt="Arijana Koskarova" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Аријана Коскарова, MBA</h4>
+
+                            <p>CEO, Creative Hub Miami, Skopje, Pristina<br />
+                                Award-winning Entrepreneur<br />
+                                Forbes under 30 ( 2019 )</p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Премногу научив од Аријана како ментор несебично ти го дава целото знаење.”</p>
+                            <p><span>— Ана Неданоска</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Премногу научив од Аријана како ментор несебично ти го дава целото знаење.”</p>
+                        <p><span>— Ана Неданоска</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor02.webp" alt="Виктор Здравковски" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor02.webp" alt="Виктор Здравковски" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Виктор Здравковски</h4>
+
+                            <p>Софтвер инжинер во Нетсетера. 3+ години ментор во изработка на веб апликации. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Виктор е најдобар ментор. Овој предмет е најзначаен.”</p>
+                            <p><span>— Давид Наунов</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Виктор е најдобар ментор. Овој предмет е најзначаен.”</p>
+                        <p><span>— Давид Наунов</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor03.webp" alt="Кирил Деловски" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor03.webp" alt="Кирил Деловски" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Кирил Деловски</h4>
+
+                            <p>Senior Front-end Developer, Platform Software Engineer во Serrala. <br />
+                                Повеќе од 10+ години како софтвер инжинер. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Кирил не научи реални вештини и работи што неможеш да ги прочиташ на Гугл. ”</p>
+                            <p><span>— Владо Петковски</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Кирил не научи реални вештини и работи што неможеш да ги прочиташ на Гугл. ”</p>
+                        <p><span>— Владо Петковски</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor04.webp" alt="Дарко Вукадиновски" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor04.webp" alt="Дарко Вукадиновски" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Дарко Вукадиновски</h4>
+
+                            <p>Senior Front-end Developer, <br />
+                                Top-rated Freelancer со повеќе од <br />
+                                10 години работно искуство како фриленсер. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Курсот за фриленс беше одличен. Предавачот Дарко на
+                                едноставен начин успеа да ни ојасни што точнo значи фриленсот..”</p>
+                            <p><span>— Виолета Ристова</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Курсот за фриленс беше одличен. Предавачот Дарко на
+                            едноставен начин успеа да ни ојасни што точнo значи фриленсот..”</p>
+                        <p><span>— Виолета Ристова</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor05.webp" alt="Никола Ризовски" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor05.webp" alt="Никола Ризовски" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Никола Ризовски</h4>
+
+                            <p>Повеќе од 3 години искуство како
+                                фронт-енд девелопер со <br />
+                                специјализација во Јavascript и Angular технологии.
+                            </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Никола има многу трпение и одлично објаснува се што не ни е јасно на нас како
+                                почетници.”</p>
+                            <p><span>— Ибрахим Ибрахимовски</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Никола има многу трпение и одлично објаснува се што не ни е јасно на нас како почетници.”
+                        </p>
+                        <p><span>— Ибрахим Ибрахимовски</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor06.webp" alt="Никола Тасиќ" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor06.webp" alt="Никола Тасиќ" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Никола Тасиќ</h4>
+
+                            <p>Сениор фронт-енд девелопер со <br />
+                                6+ години работно искуство во работа <br />
+                                со фронт-енд технологии како <br />
+                                Typescript, Angular JS, <br />
+                                Angular 2+, React, HTML & CSS. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Никола има многу големо искуство и од него научив многу.”</p>
+                            <p><span>— Елена Кочоска</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Никола има многу големо искуство и од него научив многу.”</p>
+                        <p><span>— Елена Кочоска</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor07.webp" alt="Борјан Калиновски " class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor07.webp" alt="Борјан Калиновски " class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Борјан Калиновски </h4>
+
+                            <p>Искусен софтвер инжинер со повеќе <br />
+                                од 8 години работно искуство <br />
+                                во фронтенд технологии. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Борјан многу добро објаснува и по 100 пати повторува.”</p>
+                            <p><span>— Даниела Устаперова</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Борјан многу добро објаснува и по 100 пати повторува. ” </p>
+                        <p><span>— Даниела Устаперова</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- STUDENT VIDEOS -->
+
+    <div class="student-videos">
+
+        <h2>Нашите студенти во акција</h2>
+
+
+        <div class="videos-wrapper">
+
+            <div class="students-background"></div>
+
+
+            <div class=" container-section">
+                <div class="row d-md-flex justify-content-center">
+
+                    <div class="col-lg-2 hover-element">
+                        <a href="https://youtu.be/1BpXKlP_DYY" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video01.webp" alt="Student Video">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-2 hover-element">
+                        <a href="https://youtube.com/shorts/fCeqA3Rs9fA?feature=share" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video02.webp" alt="Student Video">
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-2 hover-element">
+                        <a href="https://youtube.com/shorts/gdLd9IarMrs?feature=share" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video03.webp" alt="Student Video">
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-2 hover-element">
+                        <a href="https://youtu.be/MvZLUaldAjk" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video04.webp" alt="Student Video">
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-2 hover-element">
+                        <a href=" https://youtube.com/shorts/Nzww0oN-71Y?feature=share" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video05.webp" alt="Student Video">
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- OFFERS -->
+<!-- 
+    <div class="offers container-section overflow scholarship-section">
+
+        <div class="row" id="scholarship">
+            <div class="row">
+                <div class="col-12">
+                    <div class="price-card">
+                        <div class="scholarship">
+                            <h3>Твојата Кариерна
+                                <span>Инвестиција </span>
+                            </h3>
+                            <p><span>Аплицирај за 1000-1800 EUR попуст!</span></p>
+                            <p>Имаме органичен број на места и понудата трае само до 15ти октомври!
+                            </p>
+
+                            <button><a href="https://calendly.com/stojanco_ch/30min?month=2024-03"
+                                    target="_blank">Закажи
+                                    веднаш</a></button>
+                            <div>
+                                <img src="images/stojanco.png" alt="Stojanco N">
+                                <p>Стојанчо Н.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+    <!-- EVENTS -->
+
+    <div class="events container-section overflow">
+
+        <h2>Регуларни Активности за време на Академијата</h2>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/event01.webp" class="card-img-top" alt="Event Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Прослава во Александар Палас</h5>
+                        <p>Прославивме 6 години Creative Hub заедно со нашите студенти на гала прослава во ноември
+                            2023та година. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/event02.webp" class="card-img-top" alt="Event Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Панел Дискусии со сениор програмери
+                        </h5>
+                        <p>Дознај како до успешна кариера во фронт-енд од искуствата на програмерите.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/event03.webp" class="card-img-top" alt="Event Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Презентации по React</h5>
+                        <p>После секој модул студентите ги презентираат финалните проекти.
+
+                            Овојпат по завршување на предметот React
+                            студентите ги презентираа E-commerce апликациите.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden overflow">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event04.webp" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Нетворкинг настани</h5>
+                            <p>Запознај колеги, слушни нешто ново, конектирај се.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event05.webp" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Натпревари за вработување
+                            </h5>
+                            <p>Елена Брчиоска победи на првиот натпревар за вработување за јуниор реакт натпревар кој го
+                                организиравме заедно со Максистем. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event06.webp" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">jQuery Натпревар за вработување со Fledgeworks</h5>
+                            <p>За нашите студенти направија тест натпревар на кој победникот оди на следно ниво во
+                                процесот на интервју за јуниор фронтенд дев.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event07.webp" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Секоја сабота вежби</h5>
+                            <p>Ако си ги пропуштил часовите, или имаш нешто нејасно, секоја сабота дојди на 1 на 1 со
+                                твојот асистент.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event08.webp" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Мега Курсеви
+                            </h5>
+                            <p>Курсот за Акаунт менаџмент е 10 часовен курс на кој ќе научиш како да работиш со клиенти,
+                                како да преговараш за цена, како да го презентираш твојот проект. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event09.webp" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Визитинг предавања</h5>
+                            <p>За нашите студенти организираме визитинг сесии, сакаме да слушнат искуства од сениор
+                                програмери, сакаме да стекнат искуство и да се охрабрат да аплицираат. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="loadMoreBtn">Види повеќе</button>
+    </div>
+
+    <!-- SUCCESS STORIES -->
+
+    <div class="success-stories container-section">
+
+        <h2>Успешни IT приказни <span>❤️</span> </h2>
+        <p>Гит профили на кои сме горди !</p>
+
+        <div class="row">
+
+            <div class="col-md-3 hover-element">
+                <a href="https://github.com/elena-brcioska" target="_blank">
+                    <div class="card light">
+                        <img src="images/github.png" class="card-img-top" alt="Github">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt; elena-brcioska &gt;</h5>
+                            <img src="images/5-stars.svg" alt="5 Star Rating">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-md-3 hover-element">
+                <a href="https://github.com/BobanMoshevski" target="_blank">
+                    <div class="card dark">
+                        <img src="images/github.png" class="card-img-top" alt="Github">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt; BobanMoshevski &gt;</h5>
+                            <img src="images/5-stars.svg" alt="5 Star Rating">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-md-3 hover-element">
+                <a href="https://github.com/JovanaDod" target="_blank">
+                    <div class="card light">
+                        <img src="images/github.png" class="card-img-top" alt="Github">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt; JovanaDod &gt;</h5>
+                            <img src="images/5-stars.svg" alt="5 Star Rating">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-md-3 hover-element">
+                <a href="https://github.com/BojanMihajlo" target="_blank">
+                    <div class="card dark">
+                        <img src="images/github.png" class="card-img-top" alt="Github">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt; BojanMihajlo &gt;</h5>
+                            <img src="images/5-stars.svg" alt="5 Star Rating">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- REAL EXPERIENCES -->
+
+    <div class="real-experiences container-section">
+
+        <img class="d-none d-md-inline" src="images/realni-iskustva.webp" alt="Realni Iskustva">
+
+        <img class="d-inline d-md-none" src="images/realni-iskustva-mobile.webp" alt="Realni Iskustva">
+
+    </div>
+
+    <!-- PROJECTS -->
+
+    <div class="projects container-section">
+
+        <h2>Проекти за Реални Клиенти</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="project-item">
+
+                    <img src="images/project01.webp" alt="Project Preview">
+                    <h5>Крос Хакатон Фронт-Eнд и UX UI</h5>
+                    <p>Дизајн на страната на Tech Community Florida</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="project-item">
+
+                    <img src="images/project02.webp" alt="Project Preview">
+                    <h5>Крос Хакатон Фронт-енд и UX UI</h5>
+                    <p>Дизајн и кодирање на страната на Creative Hub</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="project-item">
+
+                    <img src="images/project03.webp" alt="Project Preview">
+                    <h5>Крос Хакатон Фронт-енд и UX UI</h5>
+                    <p>Дизајн и кодирање на страната на Женска Федерација на Македонија</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- VIDEO MESSAGE -->
+
+    <div class="video-message container-section">
+
+        <h2>Порака од нашиот <span>основач</span></h2>
+
+        <div class="video">
+            <iframe width="760" height="515" src="https://www.youtube.com/embed/vWZGLWZk2f4?si=eGz3CBVjI-2XOE32"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <div class="comparison container-section overflow">
+
+        <h2>Направи разлика </h2>
+
+        <div class="comparison-wrapper my-5">
+            <div class="others-table">
+                <div class="table--row table--header">
+                    <p>Другите</p>
+                </div>
+                <div class="table--row">
+                    <p>Вештини</p>
+                </div>
+
+                <div class="table--row long">
+                    <p>Локален сертификат / македонска диплома</p>
+                </div>
+
+                <div class="table--row">
+                    <p>Помош при вработување</p>
+                </div>
+
+                <div class="table--row">
+                    <img src="images/x.png" alt />
+                </div>
+
+                <div class="table--row">
+                    <img src="images/x.png" alt />
+                </div>
+                <div class="table--row">
+                    <img src="images/x.png" alt />
+                </div>
+                <div class="table--row no-border long">
+                    <img src="images/x.png" alt />
+                </div>
+
+            </div>
+            <div class="ch-table">
+                <div class="table--row table--header">
+                    <img src="images/ch-table-logo.png" alt="Creative Hub Logo" />
+                </div>
+
+                <div class="table--row">
+                    <div>
+                        <h5>Програма</h5>
+                        <p>Стекни вештини </p>
+                    </div>
+
+                </div>
+
+                <div class="table--row long">
+                    <div>
+                        <h5>Диплома</h5>
+                        <p>Македонска диплома</p>
+                        <p>Американска диплома</p>
+                        <p><span>* Лиценцирани од Американското Министерство за Образование.</span></p>
+                        <p>Европска Диплома со ЕКТС кредити</p>
+                    </div>
+
+                </div>
+                <div class="table--row">
+                    <div>
+                        <h5>Пракса</h5>
+                        <p>45 дена флексибилна пракса </p>
+                    </div>
+                </div>
+
+                <div class="table--row">
+                    <div>
+                        <h5>Курс за фриленс</h5>
+                        <p>* Научи како да работиш од дома</p>
+                    </div>
+
+                </div>
+
+                <div class="table--row">
+                    <div>
+                        <h5>Натпревари за вработување </h5>
+                        <p>* Со компаниите организираме натпревари за вработување за студентите кои ќе понудат најдобро
+                            решение. </p>
+                    </div>
+
+                </div>
+
+                <div class="table--row">
+                    <div>
+                        <h5>Натпревари за вработување во американски компании </h5>
+                        <p>* Creative Hub е Американска компанија со седиште во Мајами, САД. </p>
+                    </div>
+
+                </div>
+
+                <div class="table--row no-border long">
+                    <div>
+                        <h5>10x Мега Вештини за успех</h5>
+                        <p>Лидерство</p>
+                        <p><span>По завршувањето на Академијата дел од вас ќе се вработат во компанија, следен чекор е
+                                да се развијат во лидери </span></p>
+                        <p>Претприемништво</p>
+                        <p><span>Научи вештини како да започнеш сопствен бизнис </span></p>
+                        <p>Кариерни вештини за успех во професијата</p>
+                        <p><span>-Менаџирање на клиенти</span></p>
+                        <p><span>-Деловна комуникација</span></p>
+                        <p><span>-Преговарање за цена</span></p>
+                        <p><span>-Како да побараш покачување на цена</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- REGISTER -->
+
+    <iframe id="registerForm" class="register-iframe" src="form.html" width="100%" height="1300px" scrolling="no"
+        frameborder="0"></iframe>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container-section overflow">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="images/logo-footer.svg" alt="CreativeHub Logo">
+
+                    <p>
+                        Successful careers made possible.
+                    </p>
+
+                    <p>
+                        Локации: <br />
+                        <span>Скопје, Приштина, Мајами</span>
+                    </p>
+
+                    <p>
+                        Контакт: <br />
+                        <span> <img class="footer-icon" src="images/email-icon.svg"
+                                alt="email:">contact@creativehub.mk</span> <br />
+                        <span><img class="footer-icon" src="images/phone-icon.svg" alt="phone:">071 214 849</span>
+                    </p>
+
+                </div>
+
+                <div class="col-md-2">
+                    <p><span>Академии</span></p>
+
+                    <ul>
+                        <li>
+                            <a href="https://creativehub.mk/graphic-design/">Графички дизајн</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/digital-marketing/">Дигитален маркетинг</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/hr/">Човечки ресурси</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/ux-ui/">UX/UI</a>
+                        </li>
+
+                        <li>
+                            <a class="active">Front End</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/women-leadership-academy/">Women’s Leadership</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/software-testing/">Software Testing</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <p><span>AI Conference</span></p>
+
+                    <ul>
+                        <li>
+                            <a href="https://creativehub.mk/ai-conference/">AI Конференција</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <p><span>Социјални мрежи</span></p>
+
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/creativehubmacedonia" target="_blank"><img
+                                    src="images/facebook.svg" alt="facebook logo">Facebook</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/creativehubmacedonia/?hl=en" target="_blank"><img
+                                    src="images/instagram.svg" alt="instagram logo">Instagram</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.tiktok.com/@creativehub_macedonia" target="_blank"><img
+                                    src="images/tiktok.svg" alt="Tik Tok logo">Tik Tok</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/company/creativehubmacedonia/" target="_blank"><img
+                                    src="images/linkedIn.svg" alt="Linked In logo">Linked In</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.youtube.com/@creativehubmacedonia8571" target="_blank"><img
+                                    src="images/youtube.svg" alt="Youtube logo">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © Copyright 2025 Creative Hub
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+<script src="bootstrap-5.0.2-dist/js/jquery-3.6.3.min.js"></script>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+<script async src="bootstrap-5.0.2-dist/js/tiktok.js"></script>
+<script src="@glidejs/glide/dist/glide.min.js"></script>
+<script src="main.js"></script>
+<script src="counterDays.js"></script>
+<script src="https://akoskarova.activehosted.com/f/embed.php?id=669" charset="utf-8"></script>
+<script src="https://akoskarova.activehosted.com/f/embed.php?id=968" charset="utf-8"></script>
+</html>

@@ -1,0 +1,706 @@
+@media only screen and (max-width: 1599px) {
+  .testimonial-card .testimonial-body {
+    min-height: 360px;
+  }
+
+  .offers .price-footer {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .events .card {
+    min-height: 450px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(101, 119, 131, 0.1);
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .contests .card div:first-child {
+    height: 130px;
+    padding: 16px 0;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .diploma-card {
+    min-height: 450px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h2 {
+    font-size: 24px !important;
+  }
+
+  .spots p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .nav-link {
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+  }
+  .dropdown {
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .dropdown-menu {
+    left: unset !important;
+    right: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: 0 25px 40px rgb(0 0 0 / 9%);
+    border: none !important;
+    padding: 16px 16px 0 !important;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .dropdown-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #606060 !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 12px !important;
+    margin-bottom: 16px;
+    border-radius: 8px !important;
+    text-align: center !important;
+    background: #fff !important;
+  }
+
+  .dropdown-item:hover {
+    border-radius: 8px !important;
+    background: #47c6f1 !important;
+    cursor: pointer;
+  }
+
+  .dropdown-item:focus {
+    border-radius: 8px !important;
+    background: #47c6f1 !important;
+    cursor: pointer;
+  }
+
+  .active-academy {
+    border-radius: 8px !important;
+    background: #47c6f1 !important;
+  }
+
+  .navbar-grey p,
+  .navbar-grey a {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  /* hero */
+
+  .hero {
+    padding: 8% 0%;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+  .hero h1 span {
+    font-size: 32px;
+    letter-spacing: -2px;
+  }
+
+  .hero h1 span.green {
+    font-size: 14px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+  }
+
+  .header-left,
+  .header-right {
+    width: 95%;
+  }
+
+  .form-wrapper {
+    width: 100%;
+  }
+
+  .form-wrapper::after {
+    width: 100%;
+  }
+
+  /* about */
+
+  .about {
+    padding: 15% 0 0;
+  }
+
+  .about .card h5 {
+    font-size: 18px;
+  }
+
+  .about .card {
+    min-height: 300px;
+    margin-bottom: 16px;
+  }
+
+  /* comparison */
+
+  .comparison {
+    margin: 56px auto 0;
+  }
+
+  .table--row.table--header p {
+    font-size: 18px;
+  }
+
+  .table--row p {
+    font-size: 14px;
+  }
+
+  .ch-table h5 {
+    font-size: 15px;
+  }
+
+  .comparison .ch-table img {
+    width: 100%;
+  }
+
+  /* table */
+
+  .sm-table {
+    display: block;
+  }
+
+  .lg-table {
+    display: none;
+  }
+
+  .grey-row,
+  .light-blue-row,
+  .dark-blue-row {
+    font-size: 9px;
+  }
+
+  .table-wrapper table div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .table-wrapper thead,
+  .table-wrapper th {
+    height: 50px !important;
+  }
+
+  .table-wrapper td {
+    word-break: unset;
+    word-wrap: unset;
+    overflow-wrap: unset;
+    -webkit-hyphens: unset;
+    -moz-hyphens: unset;
+    -ms-hyphens: unset;
+    hyphens: unset;
+  }
+
+  .table-wrapper th {
+    font-size: 10px;
+  }
+
+  table {
+    border-spacing: 8px;
+  }
+
+  .table-wrapper table {
+    border-collapse: initial;
+  }
+
+  .table-wrapper th,
+  .table-wrapper td {
+    width: 13px;
+  }
+
+  .table-section .indicators {
+    font-size: 14px;
+  }
+
+  /* program */
+
+  .program-section {
+    margin-top: 50px !important;
+  }
+
+  .program {
+    flex-direction: column;
+  }
+
+  .program img {
+    align-self: center;
+  }
+
+  .program > div {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .program-item p {
+    font-size: 14px;
+  }
+
+  .program-section .modal h5 {
+    font-size: 18px;
+  }
+
+  .program-section .modal p {
+    font-size: 14px;
+  }
+
+  .program-section .modal span {
+    font-size: 14px;
+  }
+
+  .program.weekend {
+    margin-top: 24px;
+  }
+
+  .program.weekend h2 {
+    text-align: center;
+  }
+
+  .program.weekend p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .program.weekend div:last-child {
+    margin-left: 0;
+  }
+
+  /* mega-courses */
+
+  .courses-wrapper {
+    flex-direction: column;
+  }
+
+  .courses-wrapper .course-card {
+    width: 100%;
+  }
+
+  /* internship */
+
+  .internship {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .lg-image {
+    display: none;
+  }
+
+  .sm-image {
+    display: block;
+  }
+
+  .internship p {
+    font-size: 16px;
+  }
+
+  .internship div.sm-image img {
+    align-self: center;
+    width: 100%;
+  }
+
+  .internship > div {
+    width: 100%;
+  }
+
+  .contest {
+    margin-top: 32px;
+  }
+
+  /* testimonials */
+
+  .testimonials .row {
+    display: none;
+  }
+
+  .testimonials-glide {
+    display: block;
+  }
+
+  .testimonial-card .testimonial-body {
+    min-height: 250px;
+  }
+
+  .testimonial-card .testimonial-body p {
+    font-size: 14px;
+  }
+
+  .testimonial-card h4 {
+    font-size: 14px;
+  }
+
+  .testimonial-card .testimonial-footer button {
+    font-size: 14px;
+    margin-top: 24px;
+  }
+
+  .testimonial-card .testimonial-body {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .testimonial-card .testimonial-body div.testimonial-image {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 48px 0 16px;
+  }
+
+  /* freelance */
+
+  .freelance > div {
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: center;
+  }
+
+  .freelance img.freelance-img {
+    width: 100%;
+  }
+
+  .freelance h2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .freelance h3 {
+    font-size: 24px;
+  }
+
+  .freelance p {
+    font-size: 14px;
+  }
+
+  /* diploma */
+
+  .diploma h2 {
+    width: 100%;
+  }
+
+  .diploma-card {
+    min-height: 450px;
+    margin-bottom: 16px;
+  }
+
+  .diploma-card h3 {
+    font-size: 16px;
+  }
+  .diploma-card p {
+    font-size: 14px;
+  }
+
+  .diploma .step {
+    left: 38%;
+  }
+
+  /* contests */
+
+  .contests .card {
+    min-height: 400px;
+    margin-bottom: 16px;
+  }
+
+  .contests .card h5 {
+    font-size: 18px;
+  }
+
+  .contests .step {
+    left: 38%;
+  }
+
+  /* after academy */
+
+  .after-academy {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+
+  .after-academy > div {
+    flex-basis: 100%;
+  }
+
+  .after-academy h3 {
+    font-size: 24px !important;
+  }
+
+  .after-academy p {
+    font-size: 16px;
+  }
+
+  /* skills */
+
+  .skills {
+    padding: 15% 0;
+  }
+
+  .skill-card {
+    padding: 20px 32px;
+    margin-bottom: 16px;
+  }
+
+  .skill-card h3 {
+    color: #051238;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 0;
+  }
+
+  /* mentors */
+
+  .mentor-card h4 {
+    font-size: 16px;
+  }
+  .mentor-card img {
+    align-self: center;
+    width: 150px;
+  }
+
+  .mentor-card p {
+    font-size: 14px;
+  }
+
+  .mentor-card {
+    display: block;
+  }
+
+  .mentor-card p {
+    text-align: left;
+    line-height: 1.3;
+  }
+
+  .mentor-card .mentor-body {
+    flex-direction: row;
+    gap: 16px;
+    border-bottom: none;
+  }
+
+  .mentor-card .student-testimonial {
+    margin-top: 16px;
+  }
+
+  /* students videos */
+
+  .student-videos h2 {
+    margin-bottom: 24px;
+  }
+
+  .student-videos .video-card {
+    width: 80%;
+    margin: 16px auto;
+  }
+
+  .student-videos .students-background {
+    display: none;
+  }
+
+  /* offers */
+
+  .offers {
+    padding: 15% 0;
+  }
+
+  .offers h2 {
+    margin-bottom: 32px;
+  }
+
+  .offers .price-card button {
+    font-size: 16px;
+    padding: 16px 8px;
+  }
+
+  .price-card .scholarship p span {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .price-card .scholarship h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .price-card .scholarship button {
+    font-size: 14px;
+  }
+
+  .offers.scholarship-section .row {
+    margin-left: 0;
+  }
+
+  .offers.scholarship-section .price-card {
+    padding: 40px 8px;
+  }
+
+  /* events */
+
+  .events button {
+    margin: auto;
+  }
+
+  .events h2 {
+    margin-bottom: 32px;
+  }
+
+  .events .card {
+    min-height: 400px;
+    margin-bottom: 16px;
+  }
+
+  .events .card h5 {
+    font-size: 18px;
+  }
+
+  .events button {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .visible {
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* success-stories */
+
+  .success-stories {
+    padding: 8% 0 5%;
+  }
+
+  .success-stories .row {
+    margin-top: 32px;
+  }
+
+  .success-stories h5 {
+    font-size: 18px;
+  }
+
+  /* projects */
+
+  .projects {
+    margin-top: 8%;
+  }
+
+  .projects .project-item {
+    margin-bottom: 64px;
+  }
+
+  .projects .project-item img {
+    margin-bottom: 24px;
+  }
+
+  /* video message */
+
+  .video iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  /* register */
+
+  .register .register-wrapper {
+    border-radius: 20px;
+    padding: 32px;
+    position: relative;
+    z-index: 0;
+  }
+
+  .register h2 {
+    width: 100%;
+    font-size: 22px !important;
+  }
+
+  .register p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .register .form-wrapper {
+    padding: 16px;
+  }
+
+  .register-iframe {
+    height: 800px;
+  }
+
+  /* footer */
+
+  .footer-bottom li {
+    display: block;
+  }
+
+  .footer-bottom {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  .container-section {
+    width: 90%;
+  }
+
+  .table-wrapper th {
+    padding: 0px;
+  }
+
+  .diploma-card {
+    min-height: 300px;
+  }
+
+  .contests .card {
+    min-height: 300px;
+    margin-bottom: 16px;
+  }
+
+  .skill-card {
+    min-height: 100px;
+  }
+
+  .events .card {
+    min-height: 300px;
+  }
+}
+
+@media  (max-width: 400px) {
+  .to-the-top-button{
+      left : 30px;
+    }
+}

@@ -1,0 +1,2652 @@
+<!DOCTYPE html>
+<html lang="en-MK">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="images/header.png" />
+    <meta property="og:url" content="https://creativehub.mk/en/front-end" />
+    <meta name="keywords" content="" />
+    <link rel="canonical" href="https://creativehub.mk/en/front-end/" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-mobile.css" />
+    <link rel="stylesheet" href="aos.css" />
+    <title>Front-End Programming Academy | Creative Hub</title>
+    <meta name="description" content="Learn HTML, CSS, JavaScript & more from Experts! Obtain your EU or US Diploma in Front-End Programming and start your global career!">
+    <link rel="shortcut icon" href="images/favicon.png.webp" type="images/x-icon" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="@glidejs/glide/dist/css/glide.core.min.css" />
+
+    <link rel="alternate" hreflang="mk-MK" href="https://creativehub.mk/front-end/">
+    <link rel="alternate" hreflang="en-MK" href="https://creativehub.mk/en/front-end/">
+    <link rel="alternate" hreflang="en-XK" href="https://creativehubkos.com/front-end/">
+    <link rel="alternate" hreflang="x-default" href="https://creativehub.mk/en/front-end/">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '189500257585654');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=189500257585654&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <title>Digital marketing</title>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NB5S9TR");
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NB5S9TR" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+     <!-- Go to top button -->
+     <a href="#">
+        <i class="bi bi-arrow-up-square-fill to-the-top-button"></i>
+    </a>
+
+    <div class="navbar-wrapper">
+        <!-- BANNER -->
+        <!-- <div class="spots" onclick="scrollToSection('offers')">
+            <p>Use the Cyber Week discount</p>
+        
+            <div id="countdown"></div>
+
+            <p class="text-danger fw-bold">Only 3 spots left</p>
+        </div> -->
+        <div class="navbar-grey py-2">
+            <div class="d-flex align-items-center justify-content-between container-section">
+                <p class="m-0">
+                    Successful careers <span class="fw-bold">made possible.</span>
+                </p>
+                <div class="d-flex align-items-center">
+                    <img src="images/phone.svg" class="me-2" alt="Phone" />
+                    <a class="phone" href="tel: 38971214849">+ 389 71 214 849</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-section">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg">
+                <a 
+                class="navbar-brand" href="https://creativehub.mk/en"><img src="images/logo.svg" alt="Creative Hub" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle
+                    navigation">
+                    <span class="navbar-toggler-icon"><img src="images/hamburger.svg" alt="Hamburger" /></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Academies
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/en/graphic-design/">
+                                        Graphic Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://creativehub.mk/en/digital-marketing/" class="dropdown-item">
+                                        Digital Marketing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/en/hr/">
+                                        Human Resources
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/en/ux-ui/">
+                                        UX/UI Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="active-academy dropdown-item" href="https://creativehub.mk/en/front-end/">
+                                        Front-End
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/en/software-testing/">
+                                        Software Testing
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Career
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/blog/">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/HiringPlatform/">
+                                        Hiring Platform
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Language
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/front-end">
+                                        <img src="images/mk-flag.png" alt="mk-flag">
+                                        Macedonian
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://creativehub.mk/en/front-end">
+                                        <img src="images/en-flag.svg" alt="en-flag">
+                                        English
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://creativehub.mk/ai-conference/" class="nav-link">AI Conference</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- HERO -->
+
+    <div class="hero container-section">
+        <div class="hero-wrapper">
+            <div class="header-left">
+                <h1>
+                    US-Accredited<br />
+                    <span>Academy for Front-End <br />
+                        Development </span>
+                </h1>
+
+                <h2>For people who want to work as <br />
+                    <span class="blue"> front-end developers.</span>
+                </h2>
+
+                <p class="hero-success">
+                    Knowledge <span>+ </span> Flexible Internship <span>+ </span> EU and American Diploma <span>+
+                    </span> Employment Competitions <span>= </span> <span class="underline">Guaranteed Success</span>
+                </p>
+
+                <p>Participate in Employment Competitions until you get hired  ❤️</p>
+
+
+                <a target="_blank"
+                    href="https://www.google.com/search?q=creative+hub&sca_esv=d1dc203dc5631f05&sxsrf=ACQVn0_Gw7XFO4VcKgFpuzjd3SBkLn0bGg%3A1711804054084&ei=lg4IZqjeBICI7NYPqeG-6Aw&udm=&ved=0ahUKEwiogcaEh5yFAxUABNsEHamwD80Q4dUDCA8&uact=5&oq=creative+hub&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGNyZWF0aXZlIGh1YjIKECMYgAQYigUYJzIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLAUjEBlDTBFjTBHABeAGQAQCYAawBoAGsAaoBAzAuMbgBA8gBAPgBAZgCAqACywHCAgoQABhHGNYEGLADmAMA4gMFEgExIECIBgGQBgiSBwMxLjGgB8gG&sclient=gws-wiz-serp#lrd=0x13541537e14efaff:0xbb5ff2b26fa25c02,1,,,,">
+                    <img src="images/google-rating.png" alt="Google Rating" />
+                </a>
+
+            </div>
+            <div class="header-right">
+                <div class="form-wrapper">
+                    <form method="POST" action="https://akoskarova.activehosted.com/proc.php" id="_form_918_" class="_form _form_918 _inline-form  _dark" novalidate data-styles-version="5">
+                        <input type="hidden" name="u" value="918" />
+                        <input type="hidden" name="f" value="918" />
+                        <input type="hidden" name="s" />
+                        <input type="hidden" name="c" value="0" />
+                        <input type="hidden" name="m" value="0" />
+                        <input type="hidden" name="act" value="sub" />
+                        <input type="hidden" name="v" value="2" />
+                        <input type="hidden" name="or" value="7cf1e21c4574e93456097b5728c1ac27" />
+                        <div class="_form-content">
+                            <div class="_form_element _x21909336 _full_width _clear" >
+                            <title class="_form-title">
+                                Apply for the Academy with a €700 discount!
+                            </title>
+                            </div>
+                            <div class="_form_element _x74119868 _full_width _clear" >
+                            <div class="_html-code">
+                                Apply today and reserve your place in the new group of the Front-End Programming Academy with a €700 discount! 
+                            </div>
+                            </div>
+                            <div class="_form_element _x67826582 _full_width " >
+                            <label for="fullname" class="_form-label">
+                                Full Name<span class="field-required"></span>
+                                *
+                            </span>
+                            </label>
+                            <div class="_field-wrapper">
+                            <input type="text" id="fullname" name="fullname" placeholder="ex. Ivan Ivanovski" required/>
+                            </div>
+                        </div>
+                        <div class="_form_element _x03905226 _full_width " >
+                            <label for="email" class="_form-label">
+                            Email<span class="field-required">
+                            *
+                            </span>
+                        </label>
+                        <div class="_field-wrapper">
+                            <input type="text" id="email" name="email" placeholder="ex. ivan@gmail.com" required/>
+                        </div>
+                        </div>
+                        <div class="_form_element _x53897049 _full_width " >
+                        <label for="phone" class="_form-label">
+                            Phone number<span class="field-required"></span>
+                            *
+                        </span>
+                        </label>
+                        <div class="_field-wrapper">
+                        <input type="text" id="phone" name="phone" placeholder="Type your phone number" required/>
+                        </div>
+                        </div>
+                        <div class="_form_element _x94593036 _full_width " >
+                        <label for="ls" class="_form-label">
+                        Please verify your request.<span class="field-required">
+                        *
+                        </span>
+                        </label>
+                        <div class="g-recaptcha" data-sitekey="6LcwIw8TAAAAACP1ysM08EhCgzd6q5JAOUR1a0Go">
+                        </div>
+                        </div>
+                        <!-- <div class="_form_element _x18299879 _full_width _clear" >
+                        <div class="_html-code">
+                        *You can apply for only one full scholarship for one Academy
+                        </div>
+                        </div> -->
+                        <!-- <label for="sms_consent" class="sms_consent_checkbox">
+                        <input type="checkbox" id="sms_consent" name="sms_consent" required />
+                        <div class="sms_consent_message">
+                        By clicking the "Apply" button, I agree and give permission to Creative Hub DOOEL - Skopje to use and process my personal data, as well as to store it in the personal data collection for the purposes of the membership process in the association for as long as necessary, after which it will be deleted/destroyed in accordance with the Law on Personal Data Protection. I retain the right to withdraw my consent at any time in writing.
+                        </div>
+                        </label> -->
+                        <div class="_button-wrapper _full_width">
+                        <button id="_form_918_submit" class="_submit" type="submit">
+                        Apply
+                        </button>
+                        </div>
+                        <div class="_clear-element">
+                        </div>
+                        </div>
+                        <div class="_form-thank-you" style="display:none;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div class="about container-section overflow">
+
+        <h2>Study at a globally awarded school</h2>
+        <p>Macedonian, yet a world-class brand</p>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/news-01.png" class="card-img-top" alt="Creative Hub News">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Creative Hub was featured on the Forbes Under 30 list (2019).
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/news-02.png" class="card-img-top" alt="Creative Hub News">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Creative Hub received an award during the World Economic Forum in Davos.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/news-03.png" class="card-img-top" alt="Creative Hub News">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Creative Hub Academy became a licensed American school in September 2023.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- OFFERS -->
+
+    <div class="offers container-section overflow" id="offers">
+
+        <h2>Choose your path to success.</h2>
+        <div class="row gy-5">
+
+            <div class="col-md-4">
+
+                <div class="price-card">
+                    <div class="price-header">
+                        <img src="images/lightning-icon.svg" alt="Lighting Bolt">
+                        <h4>Basic Academy</h4>
+                        <div>
+                            <div>
+                                <p><span class="crossed-out">€ 2,500</span></p>
+                                <p>€700 discount!</p>
+                            </div>
+
+                            <div>
+                                <p><span>€ 1,800</span></p>
+                                <p>*price with discount </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price-body">
+
+                        <div>
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>All modules from the basic program</p>
+                            </div>
+
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Online lectures</p>
+                            </div>
+
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Workshops and live/online exercises</p>
+                            </div>
+
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Macedonian diploma</p>
+                            </div>
+
+                            <div>
+                                <img src="images/price-check.svg" alt="Check">
+                                <p>Employment competitions</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <p><span>€90 per month </span>/20 months</p>
+
+                    </div>
+
+                    <div class="price-footer">
+                        <span>Only one more group before the end of the year. <br />
+
+                            Apply now and secure your spot!  </span>
+                        <button onclick="scrollToSection('scholarship')">Apply here!</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="price-card most-popular">
+                    <span class="step">Most popular</span>
+                    <div class="price-header">
+                        <img src="images/star-icon.svg" alt="Star">
+                        <h4>EU Certified</h4>
+                        <div>
+                            <div>
+                                <p><span class="crossed-out">€2,800</span></p>
+                                <p>€700 discount!</p>
+                            </div>
+
+                            <div>
+                                <p><span>€ 2,100</span></p>
+                                <p>*price with discount</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price-body">
+
+                        <div>
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>Everything from the Basic Academy </p>
+                            </div>
+
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>45-day internship included in the program </p>
+                            </div>
+
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>Freelance work course</p>
+                            </div>
+
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>Mega Courses</p>
+                            </div>
+
+                            <div>
+                                <img src="images/popular-check.svg" alt="Check">
+                                <p>EU Diploma with ECTS credits</p>
+                            </div>
+                        </div>
+
+                        <p><span>€105 per month </span>/20 months</p>
+
+                    </div>
+
+                    <div class="price-footer">
+                        <span>Only one more group before the end of the year. <br />
+
+                            For cash payments, there's a 5% discount.  </span>
+                        <button onclick="scrollToSection('scholarship')">Apply here!</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="price-card american">
+                    <div class="price-header">
+                        <img src="images/heart-icon.svg" alt="Heart">
+                        <h4>American Diploma</h4>
+                        <div>
+                            <div>
+                                <p><span class="crossed-out">€3,900</span></p>
+                                <p>€700 discount!</p>
+                            </div>
+
+                            <div>
+                                <p><span>€ 3,200</span></p>
+                                <p>*price with discount </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price-body">
+
+                        <div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>Everything from the EU Certified program</p>
+                            </div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>The program is in Macedonian</p>
+                            </div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>Official American diploma</p>
+                            </div>
+
+                            <div>
+                                <img src="images/american-check.svg" alt="Check">
+                                <p>Employment competitions in American companies</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <p class="price"><span>€160 per month</span> /20 months</p>
+
+                    </div>
+
+                    <div class="price-footer">
+                        <span>Only one more group before the end of the year. <br />
+
+                            For cash payments, there's a 5% discount.  </span>
+                        <button onclick="scrollToSection('scholarship')">Apply here!</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- TABLE -->
+
+    <div class="table-section container-section overflow">
+        <h2>Program Overview </h2>
+        <p class="start-career">Start your structured professional development with Creative Hub.</p>
+        <div class="indicators d-flex justify-content-center">
+            <button>
+                <img src="images/grey-circle.svg" class="mx-2" alt="green"> <br class="d-md-none" /> Basic Academy
+            </button>
+            <button>
+                <img src="images/dblue-circle.svg" class="mx-2" alt="green"><br class="d-md-none" /> EU Certified
+            </button>
+            <button>
+                <img src="images/lblue-circle.svg" class="mx-2" alt="green"><br class="d-md-none" /> American Diploma
+            </button>
+        </div>
+        <div class="lg-table">
+
+            <div data-glide-el="track" class="glide__track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="table-wrapper mt-5 green">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Month 1</th>
+                                        <th>Month 2</th>
+                                        <th>Month 3</th>
+                                        <th>Month 4</th>
+                                        <th>Month 5</th>
+                                        <th>Month 6</th>
+                                        <th>Month 7</th>
+                                        <th>Month 8</th>
+                                        <th>Month 9</th>
+                                        <th>Month 10</th>
+                                        <th>Month 11</th>
+                                        <th>Month 12</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="grey-row row-margin">
+                                        <td colspan="8" class="grey-row"> <img src="images/table-hat.svg"
+                                                alt="Graduation Icon">2
+                                            times
+                                            a
+                                            week
+                                            for
+                                            2
+                                            hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="3" class="grey-row">Competition for
+                                            employment</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="table-wrapper red mt-5">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Month 1</th>
+                                        <th>Month 2</th>
+                                        <th>Month 3</th>
+                                        <th>Month 4</th>
+                                        <th>Month 5</th>
+                                        <th>Month 6</th>
+                                        <th>Month 7</th>
+                                        <th>Month 8</th>
+                                        <th>Month 9</th>
+                                        <th>Month 10</th>
+                                        <th>Month 11</th>
+                                        <th>Month 12</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="grey-row row-margin">
+                                        <td colspan="8" class="dark-blue-row"> <img src="images/table-hat.svg"
+                                                alt="Graduation Icon">2
+                                            times
+                                            a
+                                            week
+                                            for
+                                            2
+                                            hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="3" class="dark-blue-row"><img src="images/table-ev.svg"
+                                                alt="Graduation Icon">Competition for
+                                            employment</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="6"></td>
+                                        <td colspan="2" class="dark-blue-row">45 day flexible
+                                            practice</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="7"></td>
+                                        <td colspan="1" class="dark-blue-row">Freelance
+                                            course</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="2" class="dark-blue-row">Mega
+                                            courses</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="table-wrapper yellow mt-5">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Month 1</th>
+                                        <th>Month 2</th>
+                                        <th>Month 3</th>
+                                        <th>Month 4</th>
+                                        <th>Month 5</th>
+                                        <th>Month 6</th>
+                                        <th>Month 7</th>
+                                        <th>Month 8</th>
+                                        <th>Month 9</th>
+                                        <th>Month 10</th>
+                                        <th>Month 11</th>
+                                        <th>Month 12</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="light-blue-row row-margin">
+                                        <td colspan="8" class="light-blue-row"> <img src="images/table-hat.svg"
+                                                alt="Graduation Icon"> Modules - Basic program + mentorship sessions 3
+                                            times
+                                            a
+                                            week
+                                            for
+                                            2
+                                            hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="3" class="light-blue-row"><img src="images/table-ev.svg"
+                                                alt="Graduation Icon">Competition for
+                                            employment</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="6"></td>
+                                        <td colspan="2" class="light-blue-row">45 day flexible
+                                            practice</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="7"></td>
+                                        <td colspan="1" class="light-blue-row">Freelance
+                                            course</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                    <tr class="row-margin">
+                                        <td colspan="8"></td>
+                                        <td colspan="2" class="light-blue-row">Mega
+                                            courses</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="8"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glide__arrows text-center" data-glide-el="controls">
+                <button class="glide_arrow glide_arrow--left" data-glide-dir="<">
+                    <img src="images/table-arrow-left.svg" alt="Left arrow">
+                </button>
+                <button class="glide_arrow glide_arrow--right" data-glide-dir=">">
+                    <img src="images/table-arrow-right.svg" alt="Right arrow">
+                </button>
+            </div>
+
+        </div>
+
+    <!-- PROGRAM -->
+    <div class="program-section container-section">
+        <span class="step">MONTH 1-12</span>
+        <h2>Modules</h2>
+
+
+        <div class="program">
+
+            <div class="program-wrapper d-flex">
+                <div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program01">+</button>
+                        <p>HTML</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program02">+</button>
+                        <p>CSS</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program03">+</button>
+                        <p>Bootstrap</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program04">+</button>
+                        <p>Git</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program05">+</button>
+                        <p>JavaScript</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program06">+</button>
+                        <p>TypeScript</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program07">+</button>
+                        <p>jQuery</p>
+                    </div>
+
+                    <div class="program-item">
+                        <button data-bs-toggle="modal" data-bs-target="#program08">+</button>
+                        <p>React js </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <img src="images/program-photo.png" alt="Students at Creative Hub" />
+            </div>
+
+
+
+        </div>
+
+        <!-- PROGRAM MODALS -->
+
+        <div class="modal fade" id="program01" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">HTML</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Students will learn:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>How the internet works (communication between websites and servers)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Familiarization with code editors</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Structure of HTML elements</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Explanation of attributes and tags and their proper use</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Mini web page using only HTML</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program02" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">CSS</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Students will learn:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Basic syntax</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>CSS selectors</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>CSS colors, backgrounds, fonts, images</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Element positioning</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Pseudo classes and pseudo elements</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Flexbox</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Transformations and animations</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Responsive design - media queries</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Using external libraries and fonts (CDN)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Examples from practice</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Responsive web pages with HTML & CSS</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program03" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">Bootstrap</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Students will learn:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Basic syntax</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Grid systems and grid classes</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Typography, images, colors and backgrounds</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Element classes and components</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Component modification</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Complete responsive web pages with Bootstrap 4</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program04" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">Git
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>After completing the module:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Learn how to set up your portfolio on Git</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program05" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">JavaScript
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Students will learn:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>JavaScript basics (history, console, comments, linking files defer vs. async)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Data Types (basic data types, constants, arithmetic operators)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Objects and arrays</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Properties, methods</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Loops</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Functions (scope, arrow functions)</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>DOM</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Events & Async/Await</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>AJAX</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Classes and object-oriented programming</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Modern JavaScript</p>
+                        </div>
+
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Functions (scope, arrow functions)</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program06" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">TypeScript
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Students will learn: </span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction to the additional syntax that is based on JavaScript, designed to make
+                                integration with editors easier, which will help us detect mistakes early
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program07" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">jQuery
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Students will learn:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Opening a modal
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Running a click</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Creating a function</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Using filters</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Creating other actions</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Creating other actions</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="program08" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="programModalLabel">React js
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <span>Students will learn:</span>
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction to React and Custom Components
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>JSX</p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Handling events and working with state and use state hook
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction to forms in React
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Styling React Components
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Component children, Conditional rendering and Debugging
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>useEffect and useReducer hooks
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction and working with Material UI
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Styling Material UI components
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Working with React Context and the useContext hook
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Optimisation of React Applications
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Client - Server communication and working with APIs
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Creating Custom Hooks in React
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Introduction and building multi-page applications with React Router
+                            </p>
+                        </div>
+
+                        <div class="program-description">
+                            <img src="images/program-check.svg" alt="check">
+                            <p>Testing React Applications
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="program weekend">
+
+            <div class="lg-image">
+                <img src="images/program-weekend.png" alt="Students at Creative Hub" />
+            </div>
+
+            <div>
+                <h2>
+                    Every Saturday, exercises
+                </h2>
+
+                <p>
+                    Changing careers to IT is complex, but not impossible.
+                </p>
+
+                <p>
+                    Every Saturday, you will work on exercises 1-on-1 or in a group with one of our Academy instructors.                </p>
+            </div>
+
+            <div class="sm-image">
+                <img src="images/program-weekend.png" alt="Students at Creative Hub" />
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MEGA COURSES -->
+
+    <div class="mega-courses container-section">
+        <h2>Get + Mega Courses</h2>
+
+        <div class="courses-wrapper">
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>ACCOUNT MANAGEMENT MEGA COURSE</h3>
+                    <p>Acquire skills for successful project management.</p>
+                </div>
+
+                <div class="course-body">
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p> How to successfully execute projects with reduced risks</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Positioning yourself in the right place</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Planning</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Client communication</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Handling unforeseen problems</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Successful project completion</p>
+                    </div>
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Building a career as a freelancer and developing yourself as a developer/engineer</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>COMMUNICATION SKILLS IN IT</h3>
+                    <p>Build successful relationships in the IT industry.</p>
+                </div>
+
+                <div class="course-body">
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>How to find suitable projects</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Finding the right projects and clients</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>How to apply and initiate feedback from the client</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>How to negotiate pricing</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Which clients to avoid</p>
+                    </div>
+
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>How to start the project</p>
+                    </div>
+                    <div class="course-item">
+                        <img src="images/course-check.svg" alt="Check">
+                        <p>Building rapport with clients </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="internship container-section">
+
+        <div>
+            <span class="step">MONTH 12</span>
+            <h2>Flexible Internship <br />
+                (Included in the program) 
+            </h2>
+
+            <p>Use the internship to gain real experience working independently. </p>
+
+            <p>The internship is flexible, allowing you to participate even if you are employed.</p>
+        </div>
+
+        <div>
+            <img src="images/internship-photo.png" alt="Intern">
+        </div>
+    </div>
+
+
+    <!-- CONTESTS -->
+
+    <div class="internship  contest container-section">
+
+        <div>
+            <img class="lg-image" src="images/contest-photo.png" alt="Intern">
+        </div>
+
+        <div>
+            <span class="step">MONTH 12</span>
+            <h2>Weekly Employment Competitions</h2>
+
+            <p>Together with IT companies, we have developed a system of employment through participation in Competitions.</p>
+
+            <p>The best students start with internships or continue to the next level in the selection process.</p>
+
+            <p>Each month, you participate in at least 1 employment competition.</p>
+        </div>
+
+        <img class="sm-image" src="images/contest-photo.png" alt="Intern">
+    </div>
+
+    <div class="contests container-section overflow">
+
+        <div class="row mt-5">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div>
+                        <img src="images/vitalia.png" class="card-img-top" alt="Vitalia">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Organized on 4.6.2024</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div>
+                        <img src="images/salesmake.png" class="card-img-top" alt="Sales Make">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Organized on 7.6.2024
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div>
+                        <img src="images/secondbrain.png" class="card-img-top" alt="Fledgeworks">
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Organized on 10.6.2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+
+                    <div>
+                        <img src="images/officepeople.png" class="card-img-top" alt="Office People">
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Organized on 11.6.2024</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/maksystem.png" class="card-img-top" alt="Mak-System">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Organized on 4.3.2024</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/mccann.png" class="card-img-top" alt="McCann">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Organized on 27.4.2024
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/fledgeworks.png" class="card-img-top" alt="Fledgeworks">
+
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Organized on 1.4.2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+
+                <div>
+                    <img src="images/zito.png" class="card-img-top" alt="Zito">
+
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Organized on 8.4.2024</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/bransys.png" class="card-img-top" alt="bransys">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Organized on 11.4.2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/flexcredit.png" class="card-img-top" alt="Flexcredit">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Organized on 16.4.2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/company07.png" class="card-img-top" alt="company logo">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Organized on 16.4.2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div>
+                    <img src="images/sunnyhill.png" class="card-img-top" alt="SunnyHill">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Organized on 17.4.2024</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- FREELANCE -->
+
+    <div class="freelance container-section">
+        <h2 class="my-5">Start earning online and start <br /> applying for jobs.</h2>
+
+        <div>
+            <div class="freelance-left">
+                <span class="step">MONTH 12</span>
+                <h3>Gain skills for freelance work and company employment</h3>
+
+                <div>
+                    <img src="images/internship-check.png" alt="Check">
+                    <p>Bonus Course: Freelance Work Course</p>
+                </div>
+
+                <div>
+                    <img src="images/internship-check.png" alt="Check">
+                    <p>Bonus Course: Setting up your LinkedIn profile for success</p>
+                </div>
+
+                <div>
+                    <img src="images/internship-check.png" alt="Check">
+                    <p>Bonus Course: Preparing your CV + Portfolio</p>
+                </div>
+
+                <div>
+                    <img src="images/internship-check.png" alt="Check">
+                    <p>Bonus Course: How to successfully answer interview questions?</p>
+                </div>
+            </div>
+
+            <div>
+                <img class="freelance-img" src="images/freelance-photo.png" alt="Students working freelance">
+            </div>
+        </div>
+    </div>
+
+    <!-- EU DIPLOMA -->
+
+    <div class="diploma container-section overflow">
+
+        <h2>Earn a validated and recognized diploma</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="diploma-card">
+
+                    <img src="images/ch-circle.svg" alt="Creative Hub Diploma">
+
+                    <h3>Macedonian diploma</h3>
+
+                    <p>Verified Macedonian diploma.</p>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="diploma-card">
+
+                    <img src="images/eu-diploma.svg" alt="EU Certified Diploma">
+
+                    <h3>EU diploma with ECTS credits</h3>
+
+                    <p>*Ideal for students who want to work and live in Europe.</p>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="diploma-card dark">
+
+                    <img src="images/usa-diploma.svg" alt="USA Certified Diploma">
+
+                    <h3>American diploma</h3>
+
+                    <p>
+                        Creative Hub Academy is the first and only Macedonian institution licensed 
+                        by the United States Department of Education to issue American diplomas.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SKILLS -->
+
+    <div class="skills container-section">
+        <h2>+ Post-Academy Mega Courses </h2>
+        <p>Skills for the next level in your career</p>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="skill-card">
+
+                    <img src="images/leadership-icon.svg" alt="Leadership icon">
+
+                    <h3>Leadership</h3>
+
+                    <ul>
+                        <li>
+                            Emotional intelligence
+                        </li>
+
+                        <li>
+                            Leadership vs. Management
+                        </li>
+
+                        <li>
+                            Difference between manager and leader
+                        </li>
+
+                        <li>
+                            Managing change
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+
+                    <img src="images/lightbulb-icon.svg" alt="Entrepreneurship icon">
+
+                    <h3>Entrepreneurship</h3>
+
+                    <ul>
+                        <li>
+                            How to start your own business
+                        </li>
+
+                        <li>
+                            Creating business strategy elements
+                        </li>
+
+                        <li>
+                            Choosing the right business model
+                        </li>
+
+                        <li>
+                            Hiring the right people
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+
+                    <img src="images/check-icon.svg" alt="Success">
+
+                    <h3>Career Success</h3>
+
+                    <ul>
+                        <li>
+                            Setting KPIs
+                        </li>
+
+                        <li>
+                            Aligning your goals with your career path
+                        </li>
+
+                        <li>
+                            Developing discipline
+                        </li>
+
+                        <li>
+                            Business communication
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MENTORS -->
+
+    <div class="mentors container-section overflow">
+
+        <h2>Our Professional Lecturers</h2>
+
+        <div class="row gx-5">
+            <div class="col-sm-12 col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor01.png" alt="Arijana Koskarova" class="lg-image">
+                    </div>
+
+                    <div class="d-flex mentor-body">
+
+                        <div>
+                            <img src="images/mentor01.png" alt="Arijana Koskarova" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Arijana Koskarova, MBA</h4>
+
+                            <p>CEO, Creative Hub Miami, Skopje, Pristina<br />
+                                Award-winning Entrepreneur<br />
+                                Forbes under 30 ( 2019 )</p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“I learned so much from Arijana as a mentor; she selflessly shares all her knowledge.”</p>
+                            <p><span>— Ana Nedanoska</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“I learned so much from Arijana as a mentor; she selflessly shares all her knowledge.”</p>
+                        <p><span>— Ana Nedanoska</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor02.png" alt="Виктор Здравковски" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor02.png" alt="Виктор Здравковски" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Victor Zdravkovski</h4>
+
+                            <p>Software Engineer at Netcetera. 3+ years of mentoring in web application development. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Victor is the best mentor. This subject is the most significant.”</p>
+                            <p><span>— Давид Наунов</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Victor is the best mentor. This subject is the most significant.”</p>
+                        <p><span>— Давид Наунов</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor03.png" alt="Кирил Деловски" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor03.png" alt="Кирил Деловски" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Kiril Delovski</h4>
+
+                            <p>Senior Front-end Developer, Platform Software Engineer at Serrala. <br />
+                                More than 10+ years as a software engineer. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Kiril taught us real-world skills and things you can't just Google.”</p>
+                            <p><span>— Vlado Petkovski</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Kiril taught us real-world skills and things you can't just Google.”</p>
+                        <p><span>— Vlado Petkovski</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor04.png" alt="Дарко Вукадиновски" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor04.png" alt="Дарко Вукадиновски" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Darko Vukadinovski</h4>
+
+                            <p>Senior Front-end Developer, <br />
+                                Top-rated Freelancer with more than <br />
+                                10 years of freelancing experience </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“The Freelancing course was excellent. Darko explained everything clearly.”</p>
+                            <p><span>— Violeta Ristova</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“The Freelancing course was excellent. Darko explained everything clearly.”</p>
+                        <p><span>— Violeta Ristova</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor05.png" alt="Никола Ризовски" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor05.png" alt="Никола Ризовски" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Nikola Rizovski</h4>
+
+                            <p>Over 3 years of experience as a front-end developer <br />
+                                specializing in JavaScript and Angular 
+                            </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Nikola has a lot of patience and explains everything clearly, especially for beginners like us.”</p>
+                            <p><span>— Ibrahim Ibrahimovski</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Nikola has a lot of patience and explains everything clearly, especially for beginners like us.”</p>
+                        <p><span>— Ibrahim Ibrahimovski</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor06.png" alt="Никола Тасиќ" class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor06.png" alt="Никола Тасиќ" class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Nikola Tasic</h4>
+
+                            <p>Senior front-end developer with <br />
+                                6+ years of experience in <br />
+                                front-end technologies like <br />
+                                Typescript, Angular JS, <br />
+                                Angular 2+, React, HTML & CSS. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Nikola has a lot of experience, and I learned a lot from him.”</p>
+                            <p><span>—  Elena Kochoska</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Nikola has a lot of experience, and I learned a lot from him.”</p>
+                        <p><span>—  Elena Kochoska</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <div class="mentor-card">
+                    <div>
+                        <img src="images/mentor07.png" alt="Борјан Калиновски " class="lg-image">
+                    </div>
+
+                    <div class="mentor-body">
+
+                        <div>
+                            <img src="images/mentor07.png" alt="Борјан Калиновски " class="sm-image">
+                        </div>
+
+                        <div class="mentor-info">
+                            <h4>Borjan Kalinovski </h4>
+
+                            <p>Experienced software engineer with over <br />
+                                8 years of work experience <br />
+                                in front-end technologies. </p>
+                        </div>
+
+                        <div class="student-testimonial lg-image">
+                            <p>“Borjan explains very well and repeats things as many times as needed.”</p>
+                            <p><span>— Daniela Ustaperova</span></p>
+                        </div>
+
+                    </div>
+
+                    <div class="student-testimonial sm-image">
+                        <p>“Borjan explains very well and repeats things as many times as needed.” </p>
+                        <p><span>— Daniela Ustaperova</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- STUDENT VIDEOS -->
+
+    <div class="student-videos">
+
+        <h2>Our students in action</h2>
+
+
+        <div class="videos-wrapper">
+
+            <div class="students-background"></div>
+
+
+            <div class=" container-section">
+                <div class="row d-md-flex justify-content-center">
+
+                    <div class="col-lg-2 hover-element">
+                        <a href="https://youtu.be/1BpXKlP_DYY" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video01.png" alt="Student Video">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-2 hover-element">
+                        <a href="https://youtube.com/shorts/fCeqA3Rs9fA?feature=share" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video02.png" alt="Student Video">
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-2 hover-element">
+                        <a href="https://youtube.com/shorts/gdLd9IarMrs?feature=share" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video03.png" alt="Student Video">
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-2 hover-element">
+                        <a href="https://youtu.be/MvZLUaldAjk" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video04.png" alt="Student Video">
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-2 hover-element">
+                        <a href=" https://youtube.com/shorts/Nzww0oN-71Y?feature=share" target="_blank">
+                            <div class="video-card">
+                                <img src="images/video05.png" alt="Student Video">
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- OFFERS -->
+
+    <div class="offers container-section overflow scholarship-section">
+
+        <div class="row" id="scholarship">
+            <div class="row">
+                <div class="col-12">
+                    <div class="price-card">
+                        <div class="scholarship">
+                            <h3>Your Career
+                                <span>Investment </span>
+                            </h3>
+                            <p><span>Apply for a 1000€ discount! </span></p>
+                            <p>We have a limited number of spots, and the offer is valid until 15th July!
+                            </p>
+
+                            <button><a href="https://calendly.com/stojanco_ch/30min?month=2024-03"
+                                    target="_blank">Book now</a></button>
+                            <div>
+                                <img src="images/stojanco.png" alt="Stojanco N">
+                                <p>Stojanco N.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- EVENTS -->
+
+    <div class="events container-section overflow">
+
+        <h2>Regular Academy Activities</h2>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/event01.png" class="card-img-top" alt="Event Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Celebration at Aleksandar Palace</h5>
+                        <p>
+                            We celebrated 6 years of Creative Hub together with our students at a gala event in November 2023.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/event02.png" class="card-img-top" alt="Event Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Panel Discussions with Senior Programmers
+                        </h5>
+                        <p>Learn how to have a successful front-end career from experienced programmers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="images/event03.png" class="card-img-top" alt="Event Photo">
+                    <div class="card-body">
+                        <h5 class="card-title">React Presentations</h5>
+                        <p>
+                            After each module, students present their final projects. 
+                            This time, after completing the React module, students presented their E-commerce applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden overflow">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event04.png" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Networking Events</h5>
+                            <p>Meet colleagues, hear something new, and connect.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event05.png" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Employment Competitions
+                            </h5>
+                            <p>
+                                Elena Brcioska won the first junior React competition we organized with Mak-System.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event06.png" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">jQuery Employment Competition with Fledgeworks</h5>
+                            <p>
+                                Our students participated in a test competition, and the winner 
+                                advanced to the next level for a junior front-end developer interview.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event07.png" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Every Saturday, exercises</h5>
+                            <p>
+                                If you missed a class or need clarification, 
+                                come for 1-on-1 sessions with your assistant every Saturday.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event08.png" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Mega Courses
+                            </h5>
+                            <p>
+                                The Account Management course is a 10-hour course where you'll learn how to work with clients, 
+                                negotiate pricing, and present your project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/event09.png" class="card-img-top" alt="Event Photo">
+                        <div class="card-body">
+                            <h5 class="card-title">Visiting Lectures</h5>
+                            <p>
+                                We organize visiting sessions for our students, bringing in senior programmers 
+                                to share their experiences, encouraging students to apply for jobs 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="loadMoreBtn">See More</button>
+    </div>
+
+    <!-- SUCCESS STORIES -->
+
+    <div class="success-stories container-section">
+
+        <h2>Successful IT stories <span>❤️</span> </h2>
+        <p>We are proud of these Git profiles!</p>
+
+        <div class="row">
+
+            <div class="col-md-3 hover-element">
+                <a href="https://github.com/elena-brcioska" target="_blank">
+                    <div class="card light">
+                        <img src="images/github.png" class="card-img-top" alt="Github">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt; elena-brcioska &gt;</h5>
+                            <img src="images/5-stars.svg" alt="5 Star Rating">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-md-3 hover-element">
+                <a href="https://github.com/BobanMoshevski" target="_blank">
+                    <div class="card dark">
+                        <img src="images/github.png" class="card-img-top" alt="Github">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt; BobanMoshevski &gt;</h5>
+                            <img src="images/5-stars.svg" alt="5 Star Rating">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-md-3 hover-element">
+                <a href="https://github.com/JovanaDod" target="_blank">
+                    <div class="card light">
+                        <img src="images/github.png" class="card-img-top" alt="Github">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt; JovanaDod &gt;</h5>
+                            <img src="images/5-stars.svg" alt="5 Star Rating">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-md-3 hover-element">
+                <a href="https://github.com/BojanMihajlo" target="_blank">
+                    <div class="card dark">
+                        <img src="images/github.png" class="card-img-top" alt="Github">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt; BojanMihajlo &gt;</h5>
+                            <img src="images/5-stars.svg" alt="5 Star Rating">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- REAL EXPERIENCES -->
+
+    <div class="real-experiences container-section">
+
+        <img class="d-none d-md-inline" src="images/realni-iskustva.png" alt="Realni Iskustva">
+
+        <img class="d-inline d-md-none" src="images/realni-iskustva-mobile.png" alt="Realni Iskustva">
+
+    </div>
+    <!-- PROJECTS -->
+
+    <div class="projects container-section">
+
+        <h2>Projects for Real Clients</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="project-item">
+
+                    <img src="images/project01.png" alt="Project Preview">
+                    <h5>Cross Hackathon Front-end and UX UI</h5>
+                    <p>Design of the website for Tech Community Florida</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="project-item">
+
+                    <img src="images/project02.png" alt="Project Preview">
+                    <h5>Cross Hackathon Front-end and UX UI</h5>
+                    <p>Design and coding of the website for Creative Hub</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="project-item">
+
+                    <img src="images/project03.png" alt="Project Preview">
+                    <h5>Cross Hackathon Front-end and UX UI</h5>
+                    <p>Design and coding of the website for the Women's Federation of Macedonia</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- VIDEO MESSAGE -->
+
+    <div class="video-message container-section">
+
+        <h2>Message from our <span>founder</span></h2>
+
+        <div class="video">
+            <iframe width="760" height="515" src="https://www.youtube.com/embed/vWZGLWZk2f4?si=eGz3CBVjI-2XOE32"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="comparison container-section overflow">
+
+        <h2>Make a difference </h2>
+
+        <div class="comparison-wrapper my-5">
+            <div class="others-table">
+                <div class="table--row table--header">
+                    <p>Others</p>
+                </div>
+                <div class="table--row">
+                    <p>Skills</p>
+                </div>
+
+                <div class="table--row long">
+                    <p>Local Certificate / Macedonian Diploma</p>
+                </div>
+
+                <div class="table--row">
+                    <p>Job Placement</p>
+                </div>
+
+                <div class="table--row">
+                    <img src="images/x.png" alt />
+                </div>
+
+                <div class="table--row">
+                    <img src="images/x.png" alt />
+                </div>
+                <div class="table--row">
+                    <img src="images/x.png" alt />
+                </div>
+                <div class="table--row no-border long">
+                    <img src="images/x.png" alt />
+                </div>
+
+            </div>
+            <div class="ch-table">
+                <div class="table--row table--header">
+                    <img src="images/ch-table-logo.png" alt="Creative Hub Logo" />
+                </div>
+
+                <div class="table--row">
+                    <div>
+                        <h5>Program</h5>
+                        <p>Stack your skills</p>
+                    </div>
+
+                </div>
+
+                <div class="table--row long">
+                    <div>
+                        <h5>Diploma</h5>
+                        <p>Macedonian diploma</p>
+                        <p>American diploma</p>
+                        <p><span>* Licensed by the US Department of Education.</span></p>
+                        <p>European Diploma with ECTS credits</p>
+                    </div>
+
+                </div>
+                <div class="table--row">
+                    <div>
+                        <h5>Practice</h5>
+                        <p>45 days of flexible practice</p>
+                    </div>
+                </div>
+
+                <div class="table--row">
+                    <div>
+                        <h5>Freelance Course</h5>
+                        <p>* Learn how to work from home</p>
+                    </div>
+
+                </div>
+
+                <div class="table--row">
+                    <div>
+                        <h5>Job Competitions</h5>
+                        <p>* We organize competitions for students who will offer the best solution</p>
+                    </div>
+
+                </div>
+
+                <div class="table--row">
+                    <div>
+                        <h5>Job Competitions in American companies</h5>
+                        <p>* Creative Hub is an American company based in Miami, USA</p>
+                    </div>
+
+                </div>
+
+                <div class="table--row no-border long">
+                    <div>
+                        <h5>10x Mega Skills for success</h5>
+                        <p>Leadership</p>
+                        <p><span>After completing the Academy, some of you will be hired by a company, the next step is to develop into leaders</span></p>
+                        <p>Entrepreneurship</p>
+                        <p><span>Learn skills to start your own business</span></p>
+                        <p>Professional skills for success in the profession</p>
+                        <p><span>-Client Management</span></p>
+                        <p><span>-Business Communication</span></p>
+                        <p><span>-Negotiation</span></p>
+                        <p><span>-How to ask for a raise</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- REGISTER -->
+
+    <iframe class="register-iframe" src="form.html" width="100%" height="1300px" scrolling="no"
+        frameborder="0"></iframe>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container-section overflow">
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <img src="images/logo-footer.svg" alt="CreativeHub Logo">
+
+                    <p>
+                        Successful careers made possible.
+                    </p>
+
+                    <p>
+                        Locations: <br />
+                        <span>Skopje, Pristina, Miami</span>
+                    </p>
+
+                    <p>
+                        Contact: <br />
+                        <span> <img class="footer-icon" src="images/email-icon.svg"
+                                alt="email:">contact@creativehub.mk</span> <br />
+                        <span><img class="footer-icon" src="images/phone-icon.svg" alt="phone:">071 214 849</span>
+                    </p>
+
+                </div>
+
+                <div class="col-md-2">
+                    <p><span>Academies</span></p>
+
+                    <ul>
+                        <li>
+                            <a href="https://creativehub.mk/en/graphic-design/">Graphic Design</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/en/digital-marketing/">Digital Marketing</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/en/hr/">Human Resources</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/en/ux-ui/">UX/UI</a>
+                        </li>
+
+                        <li>
+                            <a class="active">Front End</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/en/women-leadership-academy/">Women’s Leadership</a>
+                        </li>
+
+                        <li>
+                            <a href="https://creativehub.mk/en/software-testing/">Software Testing</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <p><span>Social Networks</span></p>
+
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/creativehubmacedonia" target="_blank"><img
+                                    src="images/facebook.svg" alt="facebook logo">Facebook</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/creativehubmacedonia/?hl=en" target="_blank"><img
+                                    src="images/instagram.svg" alt="instagram logo">Instagram</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.tiktok.com/@creativehub_macedonia" target="_blank"><img
+                                    src="images/tiktok.svg" alt="Tik Tok logo">Tik Tok</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/company/creativehubmacedonia/" target="_blank"><img
+                                    src="images/linkedIn.svg" alt="Linked In logo">Linked In</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.youtube.com/@creativehubmacedonia8571" target="_blank"><img
+                                    src="images/youtube.svg" alt="Youtube logo">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; Copyright 2025 Creative Hub
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+<script src="bootstrap-5.0.2-dist/js/jquery-3.6.3.min.js"></script>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+<script async src="bootstrap-5.0.2-dist/js/tiktok.js"></script>
+<script src="https://akoskarova.activehosted.com/f/embed.php?id=669" charset="utf-8"></script>
+<script src="@glidejs/glide/dist/glide.min.js"></script>
+<script src="main.js"></script>
+<script src="counter.js"></script>
+</html>
